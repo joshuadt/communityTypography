@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#rowThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    animation-name: background;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 8s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 100px;
+    color: white;
+    line-height: 100%;
+    bottom: 1;
+
+}
+
+
+#rain1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: rgb(15, 15, 136);
+    font-size: 50px;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: rotate(60deg);
+
+    animation-name: rain1;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* z-index: 1; */
+}
+
+#rain2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: rgb(15, 15, 136);
+    font-size: 50px;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: rotate(60deg);
+
+    animation-name: rain2;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* z-index: 2; */
+}
+
+#rain3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: rgb(15, 15, 136);
+    font-size: 50px;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: rotate(60deg);
+
+    animation-name: rain3;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* z-index: 3; */
+}
+
+#rain4{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: rgb(15, 15, 136);
+    font-size: 50px;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: rotate(60deg);
+
+    animation-name: rain3;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* z-index: 3; */
+}
+
+#rain5{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: rgb(15, 15, 136);
+    font-size: 50px;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: rotate(60deg);
+
+    animation-name: rain3;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#rowFour {
+    font-size: 50px;
+    color: white;
+}
+
+#cause {
+    animation-name: appear;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+#youre {
+    animation-name: appear;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+#there {
+    animation-name: appear;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+#for {
+    animation-name: appear;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+#me {
+    animation-name: appear;
+    animation-delay: 4s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+#too {
+    animation-name: appear;
+    animation-delay: 5s;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transform: skew(15deg);
+}
+
+@keyframes rain1{
+    0% {
+        left: -400px;
+        top: 0px;
+        opacity: 0%;
+
+    }
+    100%{
+        left: 0px;
+        top: 1000px;
+        color: white;  
+        opacity: 100%; 
+    }
+}
+
+@keyframes rain2{
+    0% {
+        left: -100px;
+        top: 0px;
+        opacity: 0%;
+
+    }
+    100%{
+        left: 300px;
+        top: 1000px;
+        color: white;
+        opacity: 100%; 
+    }
+}
+
+@keyframes rain3{
+    0% {
+        left: 400px;
+        top: 0px;
+        opacity: 0%;
+
+    }
+    100%{
+        left: 800px;
+        top: 1000px;
+        color: white; 
+        opacity: 100%;
+    }
+}
+
+@keyframes rain4{
+    0% {
+        left: 600px;
+        top: 0px;
+        opacity: 0%;
+
+    }
+    100%{
+        left: 1000px;
+        top: 1000px;
+        color: white; 
+        opacity: 100%;
+    }
+}
+
+@keyframes rain5{
+    0% {
+        left: -450px;
+        top: 0px;
+        opacity: 0%;
+
+    }
+    100%{
+        left: -50px;
+        top: 1000px;
+        color: white; 
+        opacity: 100%;
+    }
+}
+
+
+@keyframes background{
+    0% {
+        background-color:rgb(131, 131, 233);
+    }
+    100%{
+        background-color:rgb(12, 12, 59);
+    }
+}
+
+@keyframes appear{
+    0% {
+        color: white
+    }
+    100%{    
+        color:#333333;
+    }
+}

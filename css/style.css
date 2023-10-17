@@ -1,0 +1,1126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    
+}
+
+body {
+    /* width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute; */
+    font-style: italic;
+    font-family: "change", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#dayBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    animation-name: colorChangeText;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    width:100%;
+    height: 100vh;
+    background-color: rgb(11, 20, 71);
+    color: rgb(11, 20, 71);
+    font-style: italic;
+    font-size: 100px;
+    font-family: "change", sans-serif;
+
+}
+
+#day{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    animation-name: colorDayText;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    background-color: rgb(11, 20, 71);
+    border-radius: 100%;
+    color: rgb(11, 20, 71);
+    font-size: 300px;
+    font-style: italic;
+    font-family: "change", sans-serif;
+}
+
+#laughBlock{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 100px;
+    font-style: italic;
+    font-family: "change", sans-serif;    /* animation-name: opacity;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+    background-color: rgb(146, 156, 247);
+    color: white;
+}
+
+#laughIntro {
+    font-size: 100px;
+    font-style: italic;
+    font-family: "change", sans-serif;
+    /* animation-name: opacity;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+    background-color: rgb(146, 156, 247);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#laugh {
+    animation-name: laugh;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#haha1 {
+        animation-name: haha1;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#haha2 {
+    animation-name: haha2;
+animation-delay: 0s;
+animation-direction: forwards;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+#haha3 {
+    animation-name: haha3;
+animation-delay: 0s;
+animation-direction: forwards;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+#haha4 {
+    animation-name: haha4;
+animation-delay: 0s;
+animation-direction: forwards;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+#haha5 {
+    animation-name: haha5;
+animation-delay: 0s;
+animation-direction: forwards;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+#worstBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+    width:100%;
+    height: 100vh;
+    background-color: white;
+    color: rgb(11, 20, 71);
+    font-size: 100px;
+}
+
+
+#forYou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+    font-size: 100px;
+    animation-name: chorusBG;
+    animation-delay: 6s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: rgb(11, 20, 71);
+
+}
+
+#chorusIll {
+    animation-name: opacity;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#chorusBe {
+    animation-name: opacity;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#chorusThere {
+    animation-name: opacity;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#chorusFor {
+    animation-name: opacity;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#chorusYou {
+    /* animation-name: chorusAppear;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+    color: white;
+
+}
+
+#rainBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    animation-name: background;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 8s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 200px;
+    color: white;
+}
+
+#rainLyrics {
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(243, 229, 229);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
+#rain1{
+    position: relative;
+    color: rgb(15, 15, 136);
+    font-size: 50px;
+    transform: rotate(60deg);
+
+    animation-name: rain1;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* z-index: 1; */
+}
+
+#rain2{
+    position: relative;
+    color: rgb(15, 15, 136);
+    font-size: 50px;
+    transform: rotate(60deg);
+    animation-name: rain2;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* z-index: 2; */
+}
+
+#rain3{
+    position: relative;
+    color: rgb(15, 15, 136);
+    font-size: 50px;
+    transform: rotate(60deg);
+    animation-name: rain3;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* z-index: 3; */
+}
+
+#rain4{
+    position: relative;
+    color: rgb(15, 15, 136);
+    font-size: 50px;
+    transform: rotate(60deg);
+    animation-name: rain3;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* z-index: 3; */
+}
+
+#rain5{
+    position: relative;
+    color: rgb(15, 15, 136);
+    font-size: 50px;
+    transform: rotate(60deg);
+    animation-name: rain3;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#lyrics {
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(243, 229, 229);
+    text-decoration: none;
+    background-color:#5659f3;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
+#cause {
+    animation-name: appear;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+#youre {
+    animation-name: appear;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+#there {
+    animation-name: appear;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+#for {
+    animation-name: appear;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+#me {
+    animation-name: appear;
+    animation-delay: 4s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+#too {
+    animation-name: appear;
+    animation-delay: 5s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transform: skew(-330deg);
+}
+
+#too2 {
+    animation-name: appear;
+    animation-delay: 7s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transform: skew(-330deg);
+}
+
+#too3 {
+    animation-name: appear;
+    animation-delay: 7s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transform: skew(-330deg);
+}
+
+#too4 {
+    animation-name: appear;
+    animation-delay: 7s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transform: skew(-330deg);
+}
+
+
+
+#gearblock {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(133, 133, 240);
+    color: rgb(243, 229, 229);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#gear{
+    animation-name: gearStuck;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+   
+}
+
+#gearG{
+    animation-name: gearStuck;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#gearE{
+    animation-name: gearStuck;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#gearA{
+    animation-name: gearStuck;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#gearR{
+    animation-name: gearStuck;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#gearGrow{
+    /* animation-name: gearStuck; */
+    transform: translate(0, -5px) rotate(30deg);
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 300px;
+
+}
+
+#gearErow{
+    /* animation-name: gearStuck; */
+    transform: translate(0, 5px) rotate(15deg);
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 300px;
+}
+
+#gearArow{
+    /* animation-name: gearStuck; */
+    transform: translate(0, 5px) rotate(345deg);
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 300px;
+
+}
+
+#gearRrow{
+    /* animation-name: gearStuck; */
+    transform: translate(0, -5px) rotate(330deg);
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 300px;
+
+}
+
+#gearBlockRow {
+    font-weight: bold;
+    animation-name: gearStuck;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%;
+    height: 100vh; */
+    color: rgb(243, 229, 229);
+    font-size: 50px;
+}
+
+#calendarBlock {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(61, 46, 150);
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    border: solid;
+}
+
+#calendarIntro {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: solid; */
+    position: absolute;
+    transform: translate(0px, -200px);
+}
+
+#calendarDay {
+    font-size:100px;
+    position: absolute;
+    animation-name: day;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration:12s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+#calendarWeek {
+    font-size: 250px;
+    color:rgb(123, 105, 228);
+    animation-name: outInOut;
+    animation-delay: 6s;
+    animation-direction: forwards;
+    animation-duration:12s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+}
+
+#calendarMonth {
+    font-size: 100px;
+    color:rgb(171, 171, 228);
+    font-size: 400px;
+    animation-name: month;
+    animation-delay: 9s;
+    animation-direction: forwards;
+    animation-duration: 12s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+}
+
+#calendarYear {
+    font-size: 800px;
+    animation-name: year;
+    animation-delay: 12s;
+    animation-direction: forwards;
+    animation-duration: 12s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    color: rgb(190, 217, 240);
+    position: absolute;
+}
+
+
+/* #rain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} */
+
+@keyframes opacity{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 50%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    75%{
+        opacity: 50%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+@keyframes rain1{
+    0% {
+        left: -400px;
+        top: 0px;
+        color: white; 
+        opacity: 0%;
+
+    }
+    100%{
+        left: 0px;
+        top: 900px;
+ 
+        opacity: 100%; 
+    }
+}
+
+@keyframes rain2{
+    0% {
+        left: -100px;
+        top: -100px;
+        color: white;
+        opacity: 0%;
+
+    }
+    100%{
+        left: 300px;
+        top: 500px;
+        opacity: 100%; 
+    }
+}
+
+@keyframes rain3{
+    0% {
+        left: 400px;
+        top: -200px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    100%{
+        left: 800px;
+        top: 800px;
+
+        opacity: 100%;
+    }
+}
+
+@keyframes rain4{
+    0% {
+        left: 600px;
+        top: 200px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    100%{
+        left: 1000px;
+        top: 1000px;
+        opacity: 100%;
+    }
+}
+
+@keyframes rain5{
+    0% {
+        left: -450px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    100%{
+        left: -50px;
+        top: 1000px;
+        opacity: 100%;
+    }
+}
+
+
+@keyframes background{
+    0% {
+        background-color:rgb(131, 131, 233);
+    }
+    25%{
+        background-color:rgb(100, 100, 230);
+    }
+    50% {
+        background-color:rgb(131, 131, 233);
+    }
+    75%{
+        background-color:rgb(55, 55, 163);
+    }
+    100%{
+        background-color:rgb(12, 12, 59);
+    }
+}
+
+@keyframes appear{
+    0% {
+        color: white;
+    }
+    100%{    
+        color:#12134e;
+    }
+}
+
+@keyframes gearStuck {
+    0% {
+        transform: rotate(10deg);
+    }
+    25%{
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(25deg);
+    }
+    75%{
+        transform: rotate(-25deg);
+    }
+    100%{
+        transform: rotate(25deg);
+    }
+}
+
+@keyframes gearStuck2 {
+    0% {
+        transform: rotate(10deg);
+    }
+    25%{
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(25deg);
+    }
+    75%{
+        transform: rotate(-25deg);
+    }
+    100%{
+        transform: rotate(25deg);
+    }
+}
+
+@keyframes haha1 {
+    0% {
+        transform: rotate(-40deg) translate(20px, 500px);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: rotate(25deg) translate(242px, 333px);
+        opacity: 50%;
+    }
+    
+    100%{
+        transform: rotate(-25deg) translate(85px, 300px);
+        opacity: 100%;
+    }
+}
+
+@keyframes haha2 {
+    0% {
+        transform: rotate(-5deg)  translate(20px, 500px) ;
+        opacity: 0%;
+    }
+
+    50% {
+        transform: rotate(-5deg) translate(242px, 333px);
+        opacity: 50%;
+    }
+    
+    100%{
+        transform: rotate(65deg) translate(85px, 300px);
+        opacity: 100%;
+    }
+}
+
+@keyframes haha3 {
+    0% {
+        transform: translate(20px, 500px);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: rotate(25deg) translate(242px, 333px);
+        opacity: 50%;
+    }
+    
+    100%{
+        transform: rotate(25deg) translate(85px, 300px);
+        opacity: 100%;
+    }
+}
+
+@keyframes haha4 {
+    0% {
+        transform: translate(20px, 750px);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: rotate(25deg) translate(242px, 803px);
+        opacity: 50%;
+    }
+    
+    100%{
+        transform: rotate(25deg) translate(85px, 1100px);
+        opacity: 100%;
+    }
+}
+
+@keyframes haha5 {
+    0% {
+        transform: translate(20px, 500px);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: rotate(25deg) translate(242px, -333px);
+        opacity: 50%;
+    }
+    
+    100%{
+        transform: rotate(25deg) translate(-85px, 300px);
+        opacity: 100%;
+    }
+}
+
+@keyframes colorChangeText {
+    0%{
+
+    }
+    25%{
+        color:rgb(55, 55, 163);
+    }
+    50%{
+        color:rgb(255, 255, 255);
+    }
+    75%{
+        color:rgb(55, 55, 163);
+    }
+    100%{
+        color: rgb(11, 20, 71);
+    }
+}
+
+@keyframes colorDayText {
+    0%{
+        filter: drop-shadow(30px 50px 2px rgba(251, 255, 37, 0.4));
+        box-shadow: 10px 5px 100px 20px rgba(253, 249, 6, 0.5);
+    }
+    25%{
+        background-color: rgb(63, 63, 16);
+        color:rgb(108, 109, 38);
+    }
+    50%{
+        color:rgb(253, 240, 49);
+        background-color: rgb(228, 186, 51);
+    }
+    75%{
+        color:rgb(108, 109, 38);
+        background-color: rgb(63, 63, 16);
+    }
+    100%{
+        filter: drop-shadow(30px 500px 20px rgba(119, 109, 255, 0.4));
+        box-shadow: -20px 500px 50px 20px rgba(138, 140, 255, 0.5);
+        color: rgb(11, 20, 71); 
+    }
+}
+
+@keyframes outInOut {
+    0%{
+        transform: translate(-3000px, 0px); 
+        color: rgb(61, 46, 150); 
+    }
+    25%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    50%{
+        transform: translate(3100px, 0px);
+        color: rgb(61, 46, 150);
+    }
+    75%{
+        transform: translate(3200px, 0px);
+    }
+    100%{
+        transform: translate(3300px, 0px);
+    }
+    
+}
+
+@keyframes day {
+    0%{
+        transform: translate(-3000px, 0px);
+        color: rgb(61, 46, 150);
+    }
+    25%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    50%{
+        transform: translate(3100px, 0px);
+        color: rgb(61, 46, 150);
+ 
+    }
+    75%{
+        transform: translate(3200px, 0px);
+    }
+    100%{
+        transform: translate(3300px, 0px);
+
+    }
+    
+}
+
+@keyframes month {
+    0%{
+        transform: translate(-3000px, 0px); 
+        color: rgb(61, 46, 150); 
+    }
+    25%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    50%{
+        transform: translate(3100px, 0px);
+        color: rgb(61, 46, 150);
+    }
+    75%{
+        transform: translate(3200px, 0px);
+    }
+    100%{
+        transform: translate(3300px, 0px);
+    }
+}
+
+@keyframes year {
+    0%{
+        transform: translate(-4000px, 150px);
+        color: rgb(61, 46, 150);  
+    }
+    25%{
+        transform: translate(0px, 150px);
+        color: white;
+    }
+    50%{
+        transform: translate(0px, 2100px);
+        color: rgb(61, 46, 150);
+        opacity: 0%;
+    }
+    75%{
+        transform: translate(0px, 2100px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(0px, 2100px);
+        opacity: 0%;
+    }
+}
+
+@keyframes laugh {
+    0%{
+        
+    }
+    25%{
+        filter: blur(5px); 
+    }
+    50%{
+        filter: blur(10px); 
+    }
+    75%{
+        filter: blur(5px); 
+    }
+    100%{
+        filter: blur(0px);  
+    }
+}
+
+@keyframes chorusBG {
+    0%{
+        background-color:rgb(255, 255, 255);
+    }
+    25%{
+
+    }
+    50%{
+        background-color:rgb(12, 12, 59);
+    }
+    75%{
+
+    }
+    100%{
+        background-color:rgb(255, 255, 255);
+    }
+    
+}
+
+@keyframes chorusAppear {
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{
+        background-color:rgb(12, 12, 59);
+    }
+    
+}
