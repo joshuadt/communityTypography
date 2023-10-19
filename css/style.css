@@ -85,6 +85,7 @@ a {
     background-color: rgb(146, 156, 247);
     color: white;
     position: relative;
+    overflow: hidden;
 }
 
 #laughIntro {
@@ -227,9 +228,21 @@ animation-timing-function: ease-in-out;
 
     width:100%;
     height: 100vh;
-    background-color: white;
-    color: rgb(11, 20, 71);
+    background-color: rgb(11, 20, 71);
+    color: rgb(255, 255, 255);
     font-size: 100px;
+}
+
+#worst{
+
+}
+
+#best{
+
+}
+
+#you{
+    animation: neon2 1.5s ease-in-out infinite alternate;
 }
 
 
@@ -320,6 +333,7 @@ animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     font-size: 200px;
     color: white;
+
 }
 
 #rainLyrics {
@@ -345,7 +359,6 @@ animation-timing-function: ease-in-out;
     color: rgb(15, 15, 136);
     font-size: 50px;
     transform: rotate(60deg);
-
     animation-name: rain1;
     animation-delay: 0s;
     animation-direction: forwards;
@@ -503,6 +516,7 @@ animation-timing-function: ease-in-out;
     background-color:#5659f3;
     font-weight: bold;
     font-size: 100px;
+    overflow: hidden;
 }
 
 
@@ -616,6 +630,7 @@ animation-timing-function: ease-in-out;
     color: rgb(243, 229, 229);
     font-weight: bold;
     font-size: 50px;
+    overflow: hidden;
 }
 
 #gear{
@@ -754,6 +769,8 @@ animation-timing-function: ease-in-out;
     background-color: rgb(61, 46, 150);
     color: rgb(255, 255, 255);
     font-size: 100px;
+    overflow: hidden;
+
 }
 
 #calendarIntro {
@@ -769,9 +786,8 @@ animation-timing-function: ease-in-out;
 
 #calendarDay {
     font-size:100px;
-    position: absolute;
     animation-name: day;
-    animation-delay: 3s;
+    animation-delay: 0s;
     animation-direction: forwards;
     animation-duration:12s;
     animation-fill-mode: backwards;
@@ -790,7 +806,6 @@ animation-timing-function: ease-in-out;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
 }
 
 #calendarMonth {
@@ -804,7 +819,6 @@ animation-timing-function: ease-in-out;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
 }
 
 #calendarYear {
@@ -816,7 +830,28 @@ animation-timing-function: ease-in-out;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
-    position: absolute;
+    /* position: absolute; */
+}
+
+#creditsBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100vh;
+    font-size: 100px;
+}
+#songTitle{
+    margin: 10px;
+}
+
+#songArtist {
+    margin: 10px;
+}
+
+#songWriter {
+    margin: 10px;
 }
 
 
@@ -1104,15 +1139,21 @@ animation-timing-function: ease-in-out;
         transform: rotate(-25deg);
     }
     85%{
-        transform: translate(0px, 300px) rotate(-125deg);
+        /* transform: translate(0px, 300px) rotate(-125deg); */
+        transform: rotate(-125deg);
+        height: 300%;
         
     }
     90%{
-        transform: translate(0px, 330px) rotate(-100deg);
+        /* transform: translate(0px, 330px) rotate(-100deg); */
+        transform: rotate(-100deg);
+        height: 300%;
         
     }
     100%{
-        transform: translate(0px, 350px) rotate(-115deg);
+        /* transform: translate(0px, 350px) rotate(-115deg); */
+        transform: rotate(-115deg);
+        height: 300%;
         
     }
 }
@@ -1282,25 +1323,26 @@ animation-timing-function: ease-in-out;
 
 @keyframes outInOut {
     0%{
-        transform: translate(-3000px, 0px);
+        transform: translate(-3000px, 700px);
         color: rgb(61, 46, 150);
     }
     25%{
-        transform: translate(0px, 0px);
+        transform: translate(0px, 700px);
         color: white;
+        opacity: 100%;
     }
     50%{
-        transform: translate(3000px, 0px);
+        transform: translate(3000px, 700px);
         color: rgb(61, 46, 150);
         opacity: 0%;
  
     }
     75%{
-        transform: translate(3200px, 0px);
+        transform: translate(3200px, 700px);
         opacity: 0%;
     }
     100%{
-        transform: translate(3300px, 0px);
+        transform: translate(3300px, 700px);
         opacity: 0%;
     }
     
@@ -1308,50 +1350,53 @@ animation-timing-function: ease-in-out;
 
 @keyframes day {
     0%{
-        transform: translate(0px, 3000px);
+        transform: translate(0px, 4000px);
+        /* transform: translate(100%, 100%); */
         color: rgb(61, 46, 150);
         opacity: 0%;
     }
     25%{
-        transform: translate(0px, 0px);
-        color: white;
+        transform: translate(0px, 2500px);
+        color: rgb(206, 45, 45);
         opacity: 100%;
     }
     50%{
-        transform: translate(0px, -3000px);
-        color: rgb(61, 46, 150);
-        opacity: 0%;
+        transform: translate(0px, 800px);
+        color: rgb(255, 255, 255);
+        opacity: 100%;
+        /* transform: translate(0%, 0%); */
  
     }
     75%{
-        transform: translate(3200px, 0px);
+        transform: translate(0px, -1500px);
         opacity: 0%;
     }
     100%{
-        transform: translate(3300px, 0px);
+        transform: translate(0px, -3000px);
         opacity: 0%;
+        /* transform: translate(-100%, -100%); */
     }
     
 }
 
 @keyframes month {
     0%{
-        transform: translate(3000px, 0px); 
+        transform: translate(3000px, 300px); 
         color: rgb(61, 46, 150); 
     }
     25%{
-        transform: translate(0px, 0px);
+        transform: translate(0px, 300px);
         color: white;
     }
     50%{
-        transform: translate(-3100px, 0px);
+        transform: translate(-3100px, 300px);
         color: rgb(61, 46, 150);
     }
     75%{
-        transform: translate(-3200px, 0px);
+        transform: translate(-3200px, 300px);
     }
     100%{
-        transform: translate(-3300px, 0px);
+        transform: translate(-3300px, 300px);
     }
 }
 
@@ -1362,21 +1407,21 @@ animation-timing-function: ease-in-out;
         opacity: 0%; 
     }
     25%{
-        transform: translate(0px, 150px);
+        transform: translate(0px, -100px);
         color: white;
         opacity: 100%;
     }
     50%{
-        transform: translate(0px, 2100px);
+        transform: translate(0px, 1800px);
         opacity: 0%;
     }
     75%{
-        transform: translate(0px, 2100px);
+        transform: translate(0px, 1800px);
         color: rgb(61, 46, 150);
         opacity: 0%;
     }
     100%{
-        transform: translate(0px, 2100px);
+        transform: translate(0px, 1800px);
         opacity: 0%;
     }
 }
@@ -1430,3 +1475,25 @@ animation-timing-function: ease-in-out;
     }
     
 }
+
+@keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+        0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+        0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+    }
+  }
+  
+  @keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffdd1b,
+        0 0 70px #ffdd1b, 0 0 80px #ffdd1b, 0 0 100px #ffdd1b, 0 0 150px #ffdd1b;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffdd1b,
+        0 0 35px #ffdd1b, 0 0 40px #ffdd1b, 0 0 50px #ffdd1b, 0 0 75px #ffdd1b;
+    }
+  }
