@@ -26,7 +26,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    animation-name: colorChangeText;
+    animation-name: colorChangeText, neon3;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 6s;
@@ -528,7 +528,6 @@ animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    margin: 50px;
 }
 
 #youre {
@@ -539,7 +538,7 @@ animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    margin: 5px;
+
 }
 
 #there {
@@ -580,12 +579,12 @@ animation-timing-function: ease-in-out;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
-    transform: skew(-330deg);
+    /* transform: skew(-330deg); */
 }
 
 #too2 {
-    animation-name: appear;
-    animation-delay: 7s;
+    animation-name: too2;
+    animation-delay: 3s;
     animation-direction: forwards;
     animation-duration: 5s;
     animation-fill-mode: backwards;
@@ -595,8 +594,8 @@ animation-timing-function: ease-in-out;
 }
 
 #too3 {
-    animation-name: appear;
-    animation-delay: 7s;
+    animation-name: too3;
+    animation-delay: 3s;
     animation-direction: forwards;
     animation-duration: 5s;
     animation-fill-mode: backwards;
@@ -606,8 +605,8 @@ animation-timing-function: ease-in-out;
 }
 
 #too4 {
-    animation-name: appear;
-    animation-delay: 7s;
+    animation-name: too4;
+    animation-delay: 3s;
     animation-direction: forwards;
     animation-duration: 5s;
     animation-fill-mode: backwards;
@@ -1495,5 +1494,38 @@ animation-timing-function: ease-in-out;
     to {
       text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffdd1b,
         0 0 35px #ffdd1b, 0 0 40px #ffdd1b, 0 0 50px #ffdd1b, 0 0 75px #ffdd1b;
+    }
+  }
+
+  @keyframes too2 {
+    0%{ transform: translate(-30px, -100px)
+
+    }
+    50%{
+    }
+    100%{
+        transform: translate(-30px, 500px)
+    }
+  }
+
+  @keyframes too3 {
+    0%{ transform: translate(20px, -200px)
+
+    }
+    50%{
+    }
+    100%{
+        transform: translate(20px, 700px)
+    }
+  }
+
+  @keyframes too4 {
+    0%{ transform: translate(-40px, -200px)
+
+    }
+    50%{
+    }
+    100%{
+        transform: translate(-40px, 1300px)
     }
   }
