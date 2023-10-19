@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -9,11 +8,11 @@ html {
 }
 
 body {
-    /* width: 100%;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    position: absolute; */
+    position: absolute;
     font-style: italic;
     font-family: "change", sans-serif;
 }
@@ -41,6 +40,7 @@ a {
     font-style: italic;
     font-size: 100px;
     font-family: "change", sans-serif;
+    position: relative;
 
 }
 
@@ -84,6 +84,7 @@ a {
     animation-timing-function: ease-in-out; */
     background-color: rgb(146, 156, 247);
     color: white;
+    position: relative;
 }
 
 #laughIntro {
@@ -103,6 +104,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     
 }
 
@@ -114,6 +116,7 @@ a {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+
 }
 
 #haha1 {
@@ -158,6 +161,56 @@ animation-timing-function: ease-in-out;
 
 #haha5 {
     animation-name: haha5;
+animation-delay: 0s;
+animation-direction: forwards;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+#haha6 {
+    animation-name: haha6;
+animation-delay: 0s;
+animation-direction: forwards;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+#haha7 {
+    animation-name: haha7;
+animation-delay: 0s;
+animation-direction: forwards;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+#haha8 {
+    animation-name: haha8;
+animation-delay: 0s;
+animation-direction: forwards;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+#haha9 {
+    animation-name: haha9;
+animation-delay: 0s;
+animation-direction: forwards;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+#haha10 {
+    animation-name: haha10;
 animation-delay: 0s;
 animation-direction: forwards;
 animation-duration: 5s;
@@ -320,7 +373,7 @@ animation-timing-function: ease-in-out;
 
 #rain3{
     position: relative;
-    color: rgb(15, 15, 136);
+    color:rgb(131, 131, 233);
     font-size: 50px;
     transform: rotate(60deg);
     animation-name: rain3;
@@ -335,10 +388,10 @@ animation-timing-function: ease-in-out;
 
 #rain4{
     position: relative;
-    color: rgb(15, 15, 136);
+    color:rgb(131, 131, 233);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain3;
+    animation-name: rain4;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -350,10 +403,24 @@ animation-timing-function: ease-in-out;
 
 #rain5{
     position: relative;
-    color: rgb(15, 15, 136);
+    color:rgb(131, 131, 233);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain3;
+    animation-name: rain5;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#rain6{
+    position: relative;
+    color:rgb(131, 131, 233);
+    font-size: 50px;
+    transform: rotate(60deg);
+    animation-name: rain6;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 6s;
@@ -362,19 +429,77 @@ animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
 }
 
+#rain7{
+    position: relative;
+    color:rgb(131, 131, 233);
+    font-size: 50px;
+    transform: rotate(60deg);
+    animation-name: rain7;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#rain8{
+    position: relative;
+    color:rgb(131, 131, 233);
+    font-size: 50px;
+    transform: rotate(60deg);
+    animation-name: rain8;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#rain9{
+    position: relative;
+    color:rgb(131, 131, 233);
+    font-size: 50px;
+    transform: rotate(60deg);
+    animation-name: rain9;
+    animation-delay: 1.5s;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#rain10{
+    position: relative;
+    color:rgb(131, 131, 233);   
+    font-size: 50px;
+    transform: rotate(60deg);
+    animation-name: rain10;
+    animation-delay: 2.5s;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
 #lyrics {
-    animation-delay: 0s;
+    /* animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; */
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: rgb(243, 229, 229);
-    text-decoration: none;
     background-color:#5659f3;
     font-weight: bold;
     font-size: 100px;
@@ -389,6 +514,7 @@ animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
+    margin: 50px;
 }
 
 #youre {
@@ -399,6 +525,7 @@ animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
+    margin: 5px;
 }
 
 #there {
@@ -545,6 +672,7 @@ animation-timing-function: ease-in-out;
 #gearGrow{
     /* animation-name: gearStuck; */
     transform: translate(0, -5px) rotate(30deg);
+    animation-name: gearStuck2;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -558,6 +686,7 @@ animation-timing-function: ease-in-out;
 #gearErow{
     /* animation-name: gearStuck; */
     transform: translate(0, 5px) rotate(15deg);
+    animation-name: gearStuck2;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -570,6 +699,7 @@ animation-timing-function: ease-in-out;
 #gearArow{
     /* animation-name: gearStuck; */
     transform: translate(0, 5px) rotate(345deg);
+    animation-name: gearStuck3;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -583,6 +713,7 @@ animation-timing-function: ease-in-out;
 #gearRrow{
     /* animation-name: gearStuck; */
     transform: translate(0, -5px) rotate(330deg);
+    animation-name: gearStuck2;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -595,13 +726,13 @@ animation-timing-function: ease-in-out;
 
 #gearBlockRow {
     font-weight: bold;
-    animation-name: gearStuck;
+    /* animation-name: gearStuck;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -623,7 +754,6 @@ animation-timing-function: ease-in-out;
     background-color: rgb(61, 46, 150);
     color: rgb(255, 255, 255);
     font-size: 100px;
-    border: solid;
 }
 
 #calendarIntro {
@@ -686,7 +816,6 @@ animation-timing-function: ease-in-out;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
-    color: rgb(190, 217, 240);
     position: absolute;
 }
 
@@ -724,11 +853,14 @@ animation-timing-function: ease-in-out;
         opacity: 0%;
 
     }
+    50%{
+        opacity: 100%;
+    }
     100%{
         left: 0px;
         top: 900px;
  
-        opacity: 100%; 
+        opacity: 0%; 
     }
 }
 
@@ -740,10 +872,13 @@ animation-timing-function: ease-in-out;
         opacity: 0%;
 
     }
+    50%{
+        opacity: 100%;
+    }
     100%{
         left: 300px;
         top: 500px;
-        opacity: 100%; 
+        opacity: 0%; 
     }
 }
 
@@ -755,11 +890,14 @@ animation-timing-function: ease-in-out;
         color: white; 
 
     }
+    50%{
+        opacity: 100%;
+    }
     100%{
         left: 800px;
         top: 800px;
 
-        opacity: 100%;
+        opacity: 0%;
     }
 }
 
@@ -771,10 +909,13 @@ animation-timing-function: ease-in-out;
         color: white; 
 
     }
+    50%{
+        opacity: 100%;
+    }
     100%{
         left: 1000px;
         top: 1000px;
-        opacity: 100%;
+        opacity: 0%;
     }
 }
 
@@ -786,29 +927,121 @@ animation-timing-function: ease-in-out;
         color: white; 
 
     }
+    50%{
+        opacity: 100%;
+    }
     100%{
         left: -50px;
         top: 1000px;
-        opacity: 100%;
+        opacity: 0%;
     }
 }
 
+@keyframes rain6{
+    0% {
+        left: -650px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: -250px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
+@keyframes rain7{
+    0% {
+        left: -750px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: -350px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
+@keyframes rain8{
+    0% {
+        left: 50px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: 450px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
+@keyframes rain9{
+    0% {
+        left: 250px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: 650px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
+@keyframes rain10{
+    0% {
+        left: 900px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: 1300px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
 
 @keyframes background{
     0% {
         background-color:rgb(131, 131, 233);
     }
     25%{
-        background-color:rgb(100, 100, 230);
+        background-color:rgb(55, 55, 163);
     }
     50% {
-        background-color:rgb(131, 131, 233);
+        background-color:rgb(12, 12, 59);
     }
     75%{
         background-color:rgb(55, 55, 163);
     }
     100%{
-        background-color:rgb(12, 12, 59);
+        background-color:rgb(131, 131, 233);    
     }
 }
 
@@ -857,90 +1090,153 @@ animation-timing-function: ease-in-out;
     }
 }
 
-@keyframes haha1 {
+@keyframes gearStuck3 {
     0% {
-        transform: rotate(-40deg) translate(20px, 500px);
-        opacity: 0%;
+        transform: rotate(10deg);
     }
-
+    25%{
+        transform: rotate(-10deg);
+    }
     50% {
-        transform: rotate(25deg) translate(242px, 333px);
-        opacity: 50%;
+        transform: rotate(25deg);
     }
-    
+    75%{
+        transform: rotate(-25deg);
+    }
+    85%{
+        transform: translate(0px, 300px) rotate(-125deg);
+        
+    }
+    90%{
+        transform: translate(0px, 330px) rotate(-100deg);
+        
+    }
     100%{
-        transform: rotate(-25deg) translate(85px, 300px);
-        opacity: 100%;
+        transform: translate(0px, 350px) rotate(-115deg);
+        
     }
 }
 
-@keyframes haha2 {
+
+@keyframes haha1 {
     0% {
-        transform: rotate(-5deg)  translate(20px, 500px) ;
-        opacity: 0%;
+        transform:  translate(-200px, 700px) rotate(-15deg)  ;
+        opacity: 100%;
     }
 
-    50% {
-        transform: rotate(-5deg) translate(242px, 333px);
-        opacity: 50%;
-    }
-    
     100%{
-        transform: rotate(65deg) translate(85px, 300px);
+        transform:  translate(-200px, -160px) rotate(10deg);
+        opacity: 0%;
+    }
+}
+@keyframes haha2 {
+    0% {
+        transform:  translate(-300px, 700px) rotate(-15deg)  ;
         opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(-300px, -120px) rotate(10deg);
+        opacity: 0%;
     }
 }
 
 @keyframes haha3 {
     0% {
-        transform: translate(20px, 500px);
-        opacity: 0%;
+        transform:  translate(0px, 500px) rotate(23deg)  ;
+        opacity: 100%;
     }
 
-    50% {
-        transform: rotate(25deg) translate(242px, 333px);
-        opacity: 50%;
-    }
-    
     100%{
-        transform: rotate(25deg) translate(85px, 300px);
-        opacity: 100%;
+        transform:  translate(0px, -100px) rotate(-10deg);
+        opacity: 0%;
     }
 }
 
 @keyframes haha4 {
     0% {
-        transform: translate(20px, 750px);
-        opacity: 0%;
+        transform:  translate(200px, 500px) rotate(5deg)  ;
+        opacity: 100%;
     }
 
-    50% {
-        transform: rotate(25deg) translate(242px, 803px);
-        opacity: 50%;
-    }
-    
     100%{
-        transform: rotate(25deg) translate(85px, 1100px);
-        opacity: 100%;
+        transform:  translate(250px, -160px) rotate(12deg);
+        opacity: 0%;
     }
 }
 
 @keyframes haha5 {
     0% {
-        transform: translate(20px, 500px);
-        opacity: 0%;
-    }
-
-    50% {
-        transform: rotate(25deg) translate(242px, -333px);
-        opacity: 50%;
-    }
-    
-    100%{
-        transform: rotate(25deg) translate(-85px, 300px);
+        transform:  translate(300px, 500px) rotate(-13deg)  ;
         opacity: 100%;
     }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
 }
+
+@keyframes haha6 {
+    0% {
+        transform:  translate(300px, 1700px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
+}
+
+@keyframes haha7 {
+    0% {
+        transform:  translate(300px, 1700px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
+}
+
+@keyframes haha8 {
+    0% {
+        transform:  translate(300px, 1700px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
+}
+
+@keyframes haha9 {
+    0% {
+        transform:  translate(300px, 1700px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
+}
+
+@keyframes haha10 {
+    0% {
+        transform:  translate(300px, 1700px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
+}
+
 
 @keyframes colorChangeText {
     0%{
@@ -986,28 +1282,6 @@ animation-timing-function: ease-in-out;
 
 @keyframes outInOut {
     0%{
-        transform: translate(-3000px, 0px); 
-        color: rgb(61, 46, 150); 
-    }
-    25%{
-        transform: translate(0px, 0px);
-        color: white;
-    }
-    50%{
-        transform: translate(3100px, 0px);
-        color: rgb(61, 46, 150);
-    }
-    75%{
-        transform: translate(3200px, 0px);
-    }
-    100%{
-        transform: translate(3300px, 0px);
-    }
-    
-}
-
-@keyframes day {
-    0%{
         transform: translate(-3000px, 0px);
         color: rgb(61, 46, 150);
     }
@@ -1016,23 +1290,53 @@ animation-timing-function: ease-in-out;
         color: white;
     }
     50%{
-        transform: translate(3100px, 0px);
+        transform: translate(3000px, 0px);
         color: rgb(61, 46, 150);
+        opacity: 0%;
  
     }
     75%{
         transform: translate(3200px, 0px);
+        opacity: 0%;
     }
     100%{
         transform: translate(3300px, 0px);
+        opacity: 0%;
+    }
+    
+}
 
+@keyframes day {
+    0%{
+        transform: translate(0px, 3000px);
+        color: rgb(61, 46, 150);
+        opacity: 0%;
+    }
+    25%{
+        transform: translate(0px, 0px);
+        color: white;
+        opacity: 100%;
+    }
+    50%{
+        transform: translate(0px, -3000px);
+        color: rgb(61, 46, 150);
+        opacity: 0%;
+ 
+    }
+    75%{
+        transform: translate(3200px, 0px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(3300px, 0px);
+        opacity: 0%;
     }
     
 }
 
 @keyframes month {
     0%{
-        transform: translate(-3000px, 0px); 
+        transform: translate(3000px, 0px); 
         color: rgb(61, 46, 150); 
     }
     25%{
@@ -1040,33 +1344,35 @@ animation-timing-function: ease-in-out;
         color: white;
     }
     50%{
-        transform: translate(3100px, 0px);
+        transform: translate(-3100px, 0px);
         color: rgb(61, 46, 150);
     }
     75%{
-        transform: translate(3200px, 0px);
+        transform: translate(-3200px, 0px);
     }
     100%{
-        transform: translate(3300px, 0px);
+        transform: translate(-3300px, 0px);
     }
 }
 
 @keyframes year {
     0%{
-        transform: translate(-4000px, 150px);
-        color: rgb(61, 46, 150);  
+        transform: translate(0px, -2100px);
+        color: rgb(61, 46, 150);
+        opacity: 0%; 
     }
     25%{
         transform: translate(0px, 150px);
         color: white;
+        opacity: 100%;
     }
     50%{
         transform: translate(0px, 2100px);
-        color: rgb(61, 46, 150);
         opacity: 0%;
     }
     75%{
         transform: translate(0px, 2100px);
+        color: rgb(61, 46, 150);
         opacity: 0%;
     }
     100%{
