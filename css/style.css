@@ -28,6 +28,7 @@ a {
     justify-content: center;
     align-items:center;
     animation-name: colorChangeText;
+    text-align: center;
     animation-delay: 0s;
     animation-direction: normal;
     animation-duration: 6s;
