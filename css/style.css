@@ -50,6 +50,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    text-align: center;
     animation-name: neon3;
     animation-delay: 0s;
     animation-direction: normal;
@@ -1407,7 +1408,7 @@ animation-timing-function: ease-in-out;
 
 @keyframes colorChangeText {
     0%{
-
+        color: rgb(11, 20, 71);
     }
     25%{
         color:rgb(55, 55, 163);
