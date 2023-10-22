@@ -89,7 +89,8 @@ a {
     background-color: rgb(146, 156, 247);
     color: white;
     overflow: hidden;
-    position: relative;
+
+
 }
 
 #laughIntro {
@@ -110,6 +111,9 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+    top: 200px;
+    margin: 5px;
 
     
 }
@@ -122,6 +126,33 @@ a {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    position: relative;
+    top: 200px;
+    margin: 5px;
+
+}
+
+#with {
+    font-size: 100px;
+    font-style: italic;
+    font-family: "change", sans-serif;
+    /* animation-name: opacity;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+    background-color: rgb(146, 156, 247);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    margin: 5px;
 
 }
 
@@ -236,19 +267,93 @@ animation-timing-function: ease-in-out;
     color: rgb(255, 255, 255);
     font-size: 100px;
     position: relative;
+    overflow: hidden;
 }
 
 #worst{
-
+    top: 200px;
+    position: relative;
 }
 
 #best{
-
+    top: 200px;
+    position: relative;
 }
 
 #you{
-    animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in  infinite alternate;
+    top: 200px;
+    position: relative;
 }
+
+#you2{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .25s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+#you3{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .5s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+#you4{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .75s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+#you5{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+#you6{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.25s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+#you7{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.5s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+#you8{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.75s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+#you9{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+#you10{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2.25s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+#you11{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2.5s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+#you12{
+    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2.75s infinite alternate;
+    top: 200px;
+    position: relative;
+}
+
+
+
 
 
 #forYou{
