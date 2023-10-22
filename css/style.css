@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+
+}
+
 body {
     width: 100%;
     min-height: 100vh;
@@ -220,7 +224,6 @@ animation-timing-function: ease-in-out;
     flex-direction: column;
     justify-content: center;
     align-items:center;
-
     width:100%;
     height: 100vh;
     background-color: rgb(11, 20, 71);
@@ -259,6 +262,26 @@ animation-timing-function: ease-in-out;
     color: rgb(11, 20, 71);
 
 }
+
+#forYou2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+    font-size: 100px;
+    animation-name: chorusBG;
+    animation-delay: 6s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: rgb(11, 20, 71);
+
+}
+
 
 #chorusIll {
     animation-name: opacity;
@@ -311,6 +334,59 @@ animation-timing-function: ease-in-out;
     color: white;
 
 }
+
+#chorusIll2 {
+    animation-name: opacity;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#chorusBe2 {
+    animation-name: opacity;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#chorusThere2 {
+    animation-name: opacity;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#chorusFor2 {
+    animation-name: opacity;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#chorusYou2 {
+    /* animation-name: chorusAppear;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+    color: white;
+
+}
+
 
 #rainBlock {
     display: flex;
@@ -828,10 +904,10 @@ animation-timing-function: ease-in-out;
     align-items: center;
     font-weight: bold;
     border: solid; */
-    text-align: center;
+    /* text-align: center; */
     position: absolute;
     /* transform: translate(0px, -200px); */
-    z-index: 6;
+    /* z-index: 6; */
 }
 
 #calendarDay {
