@@ -41,6 +41,7 @@ a {
     font-style: italic;
     font-size: 100px;
     font-family: "change", sans-serif;
+    position: relative;
 
 }
 
@@ -73,6 +74,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-weight: bold;
     font-size: 100px;
     font-style: italic;
@@ -86,6 +88,7 @@ a {
     background-color: rgb(146, 156, 247);
     color: white;
     overflow: hidden;
+    position: relative;
 }
 
 #laughIntro {
@@ -105,6 +108,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     
 }
@@ -230,6 +234,7 @@ animation-timing-function: ease-in-out;
     background-color: rgb(11, 20, 71);
     color: rgb(255, 255, 255);
     font-size: 100px;
+    position: relative;
 }
 
 #worst{
@@ -261,6 +266,7 @@ animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     color: rgb(11, 20, 71);
+    position: relative;
 
 }
 
@@ -280,6 +286,7 @@ animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     color: rgb(11, 20, 71);
+    position: relative;
 
 }
 
@@ -1484,7 +1491,7 @@ animation-timing-function: ease-in-out;
     }
     25%{
         transform: translate(0px, 2500px);
-        color: rgb(206, 45, 45);
+        color: rgb(255, 255, 255);
         opacity: 100%;
     }
     50%{
