@@ -46,6 +46,7 @@ a {
 
 }
 
+
 #day{
 
     display: flex;
@@ -271,87 +272,79 @@ animation-timing-function: ease-in-out;
 }
 
 #worst{
-    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
     position: relative;
+    top: 400px;
 }
 
 #best{
-    top: 200px;
+    top: 400px;
     position: relative;
 }
 
 #you{
     animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in  infinite alternate;
-    top: 200px;
+    top: 400px;
     position: relative;
 }
 
 #you2{
     animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .25s infinite alternate;
-    top: 200px;
+    top: 400px;
     position: relative;
 }
 
 #you3{
     animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .5s infinite alternate;
-    top: 200px;
+    top: 400px;
     position: relative;
 }
 
 #you4{
     animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .75s infinite alternate;
-    top: 200px;
+    top: 400px;
     position: relative;
 }
 
 #you5{
     animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1s infinite alternate;
-    top: 200px;
+    top: 400px;
     position: relative;
 }
 
 #you6{
     animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.25s infinite alternate;
-    top: 200px;
+    top: 400px;
     position: relative;
 }
 
 #you7{
     animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.5s infinite alternate;
-    top: 200px;
+    top: 400px;
     position: relative;
 }
 
 #you8{
     animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.75s infinite alternate;
-    top: 200px;
+    top: 400px;
     position: relative;
 }
 
 #you9{
     animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2s infinite alternate;
-    top: 200px;
+    top: 400px;
     position: relative;
 }
 
 #you10{
     animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2.25s infinite alternate;
-    top: 200px;
+    top: 400px;
     position: relative;
 }
-
-#you11{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2.5s infinite alternate;
-    top: 200px;
-    position: relative;
-}
-
-#you12{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2.75s infinite alternate;
-    top: 200px;
-    position: relative;
-}
-
 
 
 
