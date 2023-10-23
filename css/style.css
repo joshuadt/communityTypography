@@ -709,10 +709,10 @@ animation-timing-function: ease-in-out;
     --myColor4: rgb(11, 20, 71);
 }
 
-#lyrics *{
+/* #lyrics *{
     position: relative;
     top: 10%;
-}
+} */
 
 #oooBlock {
     /* animation-delay: 0s;
