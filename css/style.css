@@ -44,6 +44,7 @@ a {
     font-size: 100px;
     font-family: "change", sans-serif;
     position: relative;
+    --myColor1: rgb(11, 20, 71); --myColor2: rgb(238, 232, 143);
     background: linear-gradient(var(--myColor1), var(--myColor2));
     transition: --myColor1 3s, --myColor2 3s;
 }
