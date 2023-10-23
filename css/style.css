@@ -28,7 +28,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    animation-name: colorChangeText, bgGradient;
+    animation-name: colorChangeText;
     text-align: center;
     animation-delay: 0s;
     animation-direction: normal;
@@ -49,10 +49,10 @@ a {
 
 }
 
-#dayBlock:hover {  
+/* #dayBlock:hover {  
     --myColor1: rgb(238, 232, 143);
     --myColor2: rgb(11, 20, 71);
-  }
+  } */
 
 #day{
 
@@ -694,7 +694,6 @@ animation-timing-function: ease-in-out;
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
-    background-color:#5659f3;
     font-weight: bold;
     font-size: 100px;
     /* background: radial-gradient(rgb(11, 13, 107), rgb(255, 255, 255)) */
@@ -1932,14 +1931,6 @@ animation-timing-function: ease-in-out;
     
   }
 
-  @keyframes bgGradient {
-    0% {
-        background: linear-gradient ( white, black);
-    }
-    100% {
-        background: linear-gradient (black, white);
-    }
-  }
 
   @property --myColor1 {
     syntax: '<color>';
