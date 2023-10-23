@@ -708,10 +708,10 @@ animation-timing-function: ease-in-out;
     --myColor4: rgb(11, 20, 71);
 }
 
-#lyrics *{
+/* #lyrics *{
     position: relative;
-    top: 30%;
-}
+    top: 50%;
+} */
 
 #cause {
     animation-name: appear;
