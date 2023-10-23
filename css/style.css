@@ -727,16 +727,6 @@ animation-timing-function: ease-in-out;
     align-items: center;
 }
 
-#youre {
-    animation-name: appear;
-    animation-delay: .25s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-
-}
 
 #there {
     animation-name: appear;
@@ -1795,45 +1785,44 @@ animation-timing-function: ease-in-out;
   }
 
   @keyframes too2 {
-    /* 0%{ transform: translate(-30px, -100px);
-        color: red; */
-    0%{ transform: translate(-70%, -370%);
-            color: red;
+    0%{ transform: translate(-30px, -350px);
     }
+    /* 0%{ transform: translate(-70%, -370%);
+            color: red;
+    } */
     50%{
-        /* transform: translate(-30px, 1500px) rotateY(3110deg); */
-        transform: translate(-70%, 550%) rotateY(3110deg);
+        transform: translate(-30px, 1500px) rotateY(3110deg);
+        /* transform: translate(-70%, 550%) rotateY(3110deg); */
     }
     100%{
-        /* transform: translate(-30px, 1500px) rotateY(3110deg); */
-        transform: translate(-70%, 1550%) rotateY(3110deg);
+        transform: translate(-30px, 1500px) rotateY(3110deg);
+        /* transform: translate(-70%, 1550%) rotateY(3110deg); */
       
         opacity: 0%;
     }
   }
 
   @keyframes too3 {
-    0%{ transform: translate(-10%, -475%) rotateY(10deg);
-color: purple;
+    0%{ transform: translate(15px, -450px) rotateY(10deg);
     }
-    50%{transform: translate(-10%, 1475%) rotateY(3110deg);
+    50%{transform: translate(15px, 1300px) rotateY(3110deg);
     }
     100%{
-        transform: translate(-10%,2475%) rotateY(10deg);
+        transform: translate(15px, 3000px) rotateY(10deg);
     
         opacity: 0%;
     }
   }
 
   @keyframes too4 {
-    0%{ transform: translate(50%, -300px);
+    0%{ transform: translate(60px, -510px);
 
     }
     50%{
-        transform: translate(50%, 2100px) rotateY(3110deg);
+        transform: translate(60px, 2100px) rotateY(3110deg);
     }
     100%{
-        transform: translate(50%, 2100px) rotateY(3110deg);
+        transform: translate(60px, 2100px) rotateY(3110deg);
         opacity: 0%;
     }
 
@@ -1842,7 +1831,7 @@ color: purple;
   }
 
   @keyframes too5 {
-    0%{ transform: translate(60px, -400px);
+    0%{ transform: translate(60px, 150px);
 
     }
     50%{
@@ -1859,7 +1848,7 @@ color: purple;
   }
 
   @keyframes too6 {
-    0%{ transform: translate(15px, -500px);
+    0%{ transform: translate(15px, -800px);
 
     }
     50%{
@@ -1875,14 +1864,14 @@ color: purple;
   }
 
   @keyframes too7 {
-    0%{ transform: translate(70%, 370%);
-        color: green;
+    0%{ transform: translate(60px, -900px);
+
     }
     50%{
-        transform: translate(70%, 3370%) rotateY(3110deg);
+        transform: translate(60px, 3000px) rotateY(3110deg);
     }
     100%{
-        transform: translate(70%, 3370%) rotateY(3110deg);
+        transform: translate(60px, 3000px) rotateY(3110deg);
  
 
     }
@@ -1892,7 +1881,7 @@ color: purple;
   }
 
   @keyframes too8 {
-    0%{ transform: translate(60px, -650px);
+    0%{ transform: translate(60px, -900px);
 
     }
     50%{
@@ -1907,7 +1896,7 @@ color: purple;
   }
 
   @keyframes too9 {
-    0%{ transform: translate(15px, -800px);
+    0%{ transform: translate(15px, -1050px);
 
     }
     50%{
@@ -1922,14 +1911,14 @@ color: purple;
   }
 
   @keyframes too10 {
-    0%{ transform: translate(-70%, -900px);
+    0%{ transform: translate(-30px, -1150px);
 
     }
     50%{
-        transform: translate(-70%, 1300px) rotateY(3110deg);
+        transform: translate(-30px, 1300px) rotateY(3110deg);
     }
     100%{
-        transform: translate(-70%, 1300px) rotateY(3110deg);
+        transform: translate(-30px, 1300px) rotateY(3110deg);
     }
 
     
