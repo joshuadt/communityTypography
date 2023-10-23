@@ -20,6 +20,7 @@ body {
 
 a {
     text-decoration: none;
+    color:rgb(12, 12, 59)
 }
 
 #dayBlock{
@@ -27,7 +28,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    animation-name: colorChangeText;
+    animation-name: colorChangeText, bgGradient;
     text-align: center;
     animation-delay: 0s;
     animation-direction: normal;
@@ -37,15 +38,21 @@ a {
     animation-timing-function: ease-in;
     width:100%;
     height: 100vh;
-    background-color: rgb(11, 20, 71);
+    /* background-color: rgb(11, 20, 71); */
     color: rgb(11, 20, 71);
     font-style: italic;
     font-size: 100px;
     font-family: "change", sans-serif;
     position: relative;
+    background: linear-gradient(var(--myColor1), var(--myColor2));
+    transition: --myColor1 3s, --myColor2 3s;
 
 }
 
+#dayBlock:hover {  
+    --myColor1: rgb(238, 232, 143);
+    --myColor2: rgb(11, 20, 71);
+  }
 
 #day{
 
@@ -87,8 +94,8 @@ a {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out; */
-    background-color: rgb(146, 156, 247);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 20, 71);
     overflow: hidden;
 
 
@@ -105,8 +112,7 @@ a {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out; */
-    background-color: rgb(146, 156, 247);
-    color: white;
+    color: rgb(11, 20, 71);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,8 +150,7 @@ a {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out; */
-    background-color: rgb(146, 156, 247);
-    color: white;
+    color: rgb(11, 20, 71);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -694,10 +699,21 @@ animation-timing-function: ease-in-out;
     background-color:#5659f3;
     font-weight: bold;
     font-size: 100px;
-    overflow: hidden;
+    /* background: radial-gradient(rgb(11, 13, 107), rgb(255, 255, 255)) */
+    background: linear-gradient(var(--myColor4), var(--myColor3));
+    transition: --myColor3 3s, --myColor4 3s;
 
 }
 
+#lyrics:hover{
+    --myColor3: rgb(238, 232, 143);
+    --myColor4: rgb(11, 20, 71);
+}
+
+#lyrics *{
+    position: relative;
+    top: 300px;
+}
 
 #cause {
     animation-name: appear;
@@ -705,7 +721,7 @@ animation-timing-function: ease-in-out;
     animation-direction: normal;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
@@ -715,22 +731,22 @@ animation-timing-function: ease-in-out;
 
 #youre {
     animation-name: appear;
-    animation-delay: 1s;
+    animation-delay: .25s;
     animation-direction: normal;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in;
 
 }
 
 #there {
     animation-name: appear;
-    animation-delay: 2s;
+    animation-delay: .5s;
     animation-direction: normal;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
@@ -740,11 +756,11 @@ animation-timing-function: ease-in-out;
 
 #for {
     animation-name: appear;
-    animation-delay: 3s;
+    animation-delay: .75s;
     animation-direction: normal;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
@@ -754,11 +770,11 @@ animation-timing-function: ease-in-out;
 
 #me {
     animation-name: appear;
-    animation-delay: 4s;
+    animation-delay: 1s;
     animation-direction: normal;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
@@ -768,9 +784,9 @@ animation-timing-function: ease-in-out;
 
 #too {
     animation-name: appear;
-    animation-delay: 5s;
+    animation-delay: 0s;
     animation-direction: normal;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -783,9 +799,9 @@ animation-timing-function: ease-in-out;
 
 #too2 {
     animation-name: too2;
-    animation-delay: 0s;
+    animation-delay: .25s;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -794,9 +810,9 @@ animation-timing-function: ease-in-out;
 
 #too3 {
     animation-name: too3;
-    animation-delay: 0s;
+    animation-delay: .5s;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -805,9 +821,9 @@ animation-timing-function: ease-in-out;
 
 #too4 {
     animation-name: too4;
-    animation-delay: 0s;
+    animation-delay: .75s;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -816,9 +832,9 @@ animation-timing-function: ease-in-out;
 
 #too5 {
     animation-name: too5;
-    animation-delay: 0s;
+    animation-delay: 1s;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -827,9 +843,9 @@ animation-timing-function: ease-in-out;
 
 #too6 {
     animation-name: too6;
-    animation-delay: 0s;
+    animation-delay: 1.25s;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -838,15 +854,45 @@ animation-timing-function: ease-in-out;
 
 #too7 {
     animation-name: too7;
-    animation-delay: 0s;
+    animation-delay: 1.5s;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     transform: skew(-330deg);
 }
 
+#too8 {
+    animation-name: too8;
+    animation-delay: 1.75s;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transform: skew(-330deg);
+}
+#too9 {
+    animation-name: too9;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transform: skew(-330deg);
+}
+#too10 {
+    animation-name: too10;
+    animation-delay: 2.25s;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transform: skew(-330deg);
+}
 
 #gearblock {
     padding-top: 100px;
@@ -931,8 +977,8 @@ animation-timing-function: ease-in-out;
 #gearErow{
     /* animation-name: gearStuck; */
     transform: translate(0, 5px) rotate(15deg);
-    animation-name: gearStuck2;
-    animation-delay: 0s;
+    animation-name: gearStuck3;
+    animation-delay: 1s;
     animation-direction: normal;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -944,7 +990,7 @@ animation-timing-function: ease-in-out;
 #gearArow{
     /* animation-name: gearStuck; */
     transform: translate(0, 5px) rotate(345deg);
-    animation-name: gearStuck3;
+    animation-name: gearStuck2;
     animation-delay: 0s;
     animation-direction: normal;
     animation-duration: 3s;
@@ -1074,6 +1120,7 @@ animation-timing-function: ease-in-out;
     width: 100%;
     height: 100vh;
     font-size: 100px;
+    color:rgb(12, 12, 59)
 }
 #songTitle{
     margin: 10px;
@@ -1087,7 +1134,18 @@ animation-timing-function: ease-in-out;
     margin: 10px;
 }
 
-
+#replay {
+    animation-name: neon3;
+    text-align: center;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    text-decoration: none;
+    color:#12134e
+}
 /* #rain{
     display: flex;
     flex-direction: row;
@@ -1317,8 +1375,11 @@ animation-timing-function: ease-in-out;
     0% {
         color: white;
     }
-    100%{    
+    50%{    
         color:#12134e;
+    }
+    100%{    
+        color:#ffffff;
     }
 }
 
@@ -1361,33 +1422,42 @@ animation-timing-function: ease-in-out;
 @keyframes gearStuck3 {
     0% {
         transform: rotate(10deg);
+        height: 100%;
     }
     25%{
         transform: rotate(-10deg);
+        height: 300%;
     }
     50% {
         transform: rotate(25deg);
+        height: 300%;
     }
     75%{
         transform: rotate(-25deg);
+        height: 300%;
     }
     85%{
         /* transform: translate(0px, 300px) rotate(-125deg); */
-        transform: rotate(-125deg);
+        transform: rotate(-190deg);
         height: 300%;
         
     }
     90%{
         /* transform: translate(0px, 330px) rotate(-100deg); */
-        transform: rotate(-100deg);
+        transform: rotate(-140deg);
         height: 300%;
         
     }
-    100%{
+    95%{
         /* transform: translate(0px, 350px) rotate(-115deg); */
-        transform: rotate(-115deg);
+        transform: rotate(-175deg);
         height: 300%;
         
+    }
+    100% {
+        /* transform: translate(0px, 350px) rotate(-115deg); */
+        transform: rotate(-175deg);
+        height: 500%;
     }
 }
 
@@ -1740,16 +1810,21 @@ animation-timing-function: ease-in-out;
     }
     100%{
         transform: translate(-30px, 1500px) rotateY(3110deg);
+      
+        opacity: 0%;
     }
   }
 
   @keyframes too3 {
     0%{ transform: translate(15px, -200px) rotateY(10deg);
+
     }
     50%{        transform: translate(15px, 1300px) rotateY(3110deg);
     }
     100%{
-        transform: translate(15px, 1300px) rotateY(10deg);;
+        transform: translate(15px, 1300px) rotateY(10deg);
+    
+        opacity: 0%;
     }
   }
 
@@ -1762,6 +1837,7 @@ animation-timing-function: ease-in-out;
     }
     100%{
         transform: translate(60px, 2100px) rotateY(3110deg);
+        opacity: 0%;
     }
 
     
@@ -1777,6 +1853,8 @@ animation-timing-function: ease-in-out;
     }
     100%{
         transform: translate(60px, 1950px) rotateY(3110deg);
+
+        opacity: 0%;
     }
 
     
@@ -1792,6 +1870,7 @@ animation-timing-function: ease-in-out;
     }
     100%{
         transform: translate(15px, 900px) rotateY(3110deg);
+        opacity: 0%;
     }
 
     
@@ -1807,8 +1886,87 @@ animation-timing-function: ease-in-out;
     }
     100%{
         transform: translate(-30px, 1300px) rotateY(3110deg);
+
     }
 
     
     
+  }
+
+  @keyframes too8 {
+    0%{ transform: translate(60px, -650px);
+
+    }
+    50%{
+        transform: translate(60px, 1300px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(60px, 1300px) rotateY(3110deg);
+    }
+
+    
+    
+  }
+
+  @keyframes too9 {
+    0%{ transform: translate(15px, -800px);
+
+    }
+    50%{
+        transform: translate(15px, 1300px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(15px, 1300px) rotateY(3110deg);
+    }
+
+    
+    
+  }
+
+  @keyframes too10 {
+    0%{ transform: translate(-30px, -900px);
+
+    }
+    50%{
+        transform: translate(-30px, 1300px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(-30px, 1300px) rotateY(3110deg);
+    }
+
+    
+    
+  }
+
+  @keyframes bgGradient {
+    0% {
+        background: linear-gradient ( white, black);
+    }
+    100% {
+        background: linear-gradient (black, white);
+    }
+  }
+
+  @property --myColor1 {
+    syntax: '<color>';
+    initial-value: rgb(11, 20, 71);
+    inherits: false;
+  }
+  
+  @property --myColor2 {
+    syntax: '<color>';
+    initial-value: rgb(238, 232, 143);
+    inherits: false;
+  }
+
+  @property --myColor3 {
+    syntax: '<color>';
+    initial-value: rgb(11, 20, 71);
+    inherits: false;
+  }
+  
+  @property --myColor4 {
+    syntax: '<color>';
+    initial-value: rgb(238, 232, 143);
+    inherits: false;
   }
