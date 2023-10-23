@@ -697,6 +697,7 @@ animation-timing-function: ease-in-out;
     font-weight: bold;
     font-size: 100px;
     /* background: radial-gradient(rgb(11, 13, 107), rgb(255, 255, 255)) */
+    --myColor3: rgb(11, 20, 71); --myColor4: rgb(238, 232, 143);
     background: linear-gradient(var(--myColor4), var(--myColor3));
     transition: --myColor3 3s, --myColor4 3s;
     overflow:hidden;
@@ -1688,22 +1689,22 @@ animation-timing-function: ease-in-out;
 
 @keyframes month {
     0%{
-        transform: translate(3000px, 300px); 
+        transform: translate(3000px, 0px); 
         color: rgb(61, 46, 150); 
     }
     25%{
-        transform: translate(0px, 300px);
+        transform: translate(0px, 0px);
         color: white;
     }
     50%{
-        transform: translate(-3100px, 300px);
+        transform: translate(-3100px, 0px);
         color: rgb(61, 46, 150);
     }
     75%{
-        transform: translate(-3200px, 300px);
+        transform: translate(-3200px, 0px);
     }
     100%{
-        transform: translate(-3300px, 300px);
+        transform: translate(-3300px, 0px);
     }
 }
 
