@@ -705,6 +705,7 @@ animation-timing-function: ease-in-out;
 }
 
 #lyrics:hover{
+    transition: --myColor3 3s 0s, --myColor4 3s 0s;
     --myColor3: rgb(238, 232, 143);
     --myColor4: rgb(11, 20, 71);
 }
