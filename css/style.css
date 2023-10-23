@@ -1131,6 +1131,7 @@ animation-timing-function: ease-in-out;
     height: 100vh;
     font-size: 600%;
     color:rgb(12, 12, 59);
+    position: relative;
     overflow: hidden;
 }
 #songTitle{
