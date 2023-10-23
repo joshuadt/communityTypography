@@ -46,10 +46,6 @@ a {
     position: relative;
     background: linear-gradient(var(--myColor1), var(--myColor2));
     transition: --myColor1 3s, --myColor2 3s;
-    --myColor2: rgb(238, 232, 143);
-    --myColor1: rgb(11, 20, 71);
-    
-
 }
 
 #dayBlock:hover {  
