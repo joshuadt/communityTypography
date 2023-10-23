@@ -708,10 +708,10 @@ animation-timing-function: ease-in-out;
     --myColor4: rgb(11, 20, 71);
 }
 
-/* #lyrics *{
+#lyrics *{
     position: relative;
-    top: 50%;
-} */
+    top: 30%;
+}
 
 #cause {
     animation-name: appear;
@@ -1795,14 +1795,18 @@ animation-timing-function: ease-in-out;
   }
 
   @keyframes too2 {
-    0%{ transform: translate(-30px, -100px);
-
+    /* 0%{ transform: translate(-30px, -100px);
+        color: red; */
+    0%{ transform: translate(-70%, -370%);
+            color: red;
     }
     50%{
-        transform: translate(-30px, 1500px) rotateY(3110deg);
+        /* transform: translate(-30px, 1500px) rotateY(3110deg); */
+        transform: translate(-70%, 550%) rotateY(3110deg);
     }
     100%{
-        transform: translate(-30px, 1500px) rotateY(3110deg);
+        /* transform: translate(-30px, 1500px) rotateY(3110deg); */
+        transform: translate(-70%, 1550%) rotateY(3110deg);
       
         opacity: 0%;
     }
