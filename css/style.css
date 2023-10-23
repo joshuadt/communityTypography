@@ -710,7 +710,7 @@ animation-timing-function: ease-in-out;
 
 #lyrics *{
     position: relative;
-    top: 300px;
+    top: 30%;
 }
 
 #cause {
