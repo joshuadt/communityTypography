@@ -28,14 +28,21 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    animation-name: colorChangeText;
+    -webkit-animation-name: colorChangeText;
+            animation-name: colorChangeText;
     text-align: center;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     width:100%;
     height: 100vh;
     /* background-color: rgb(11, 20, 71); */
@@ -61,13 +68,20 @@ a {
     justify-content: center;
     align-items:center;
     text-align: center;
-    animation-name: neon3;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: neon3;
+            animation-name: neon3;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     color: rgb(11, 20, 71);
     font-size: 300px;
     font-style: italic;
@@ -124,13 +138,20 @@ a {
 }
 
 #laugh {
-    animation-name: laugh;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: laugh;
+            animation-name: laugh;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     position: relative;
     top: 200px;
     margin: 5px;
@@ -161,103 +182,173 @@ a {
 }
 
 #haha1 {
-        animation-name: haha1;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+        -webkit-animation-name: haha1;
+                animation-name: haha1;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #haha2 {
-    animation-name: haha2;
-animation-delay: 0s;
-animation-direction: normal;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    -webkit-animation-name: haha2;
+            animation-name: haha2;
+-webkit-animation-delay: 0s;
+        animation-delay: 0s;
+-webkit-animation-direction: normal;
+        animation-direction: normal;
+-webkit-animation-duration: 5s;
+        animation-duration: 5s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
 }
 
 #haha3 {
-    animation-name: haha3;
-animation-delay: 0s;
-animation-direction: normal;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    -webkit-animation-name: haha3;
+            animation-name: haha3;
+-webkit-animation-delay: 0s;
+        animation-delay: 0s;
+-webkit-animation-direction: normal;
+        animation-direction: normal;
+-webkit-animation-duration: 5s;
+        animation-duration: 5s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
 }
 
 #haha4 {
-    animation-name: haha4;
-animation-delay: 0s;
-animation-direction: normal;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    -webkit-animation-name: haha4;
+            animation-name: haha4;
+-webkit-animation-delay: 0s;
+        animation-delay: 0s;
+-webkit-animation-direction: normal;
+        animation-direction: normal;
+-webkit-animation-duration: 5s;
+        animation-duration: 5s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
 }
 
 #haha5 {
-    animation-name: haha5;
-animation-delay: 0s;
-animation-direction: normal;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    -webkit-animation-name: haha5;
+            animation-name: haha5;
+-webkit-animation-delay: 0s;
+        animation-delay: 0s;
+-webkit-animation-direction: normal;
+        animation-direction: normal;
+-webkit-animation-duration: 5s;
+        animation-duration: 5s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
 }
 
 #haha6 {
-    animation-name: haha6;
-animation-delay: 0s;
-animation-direction: normal;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    -webkit-animation-name: haha6;
+            animation-name: haha6;
+-webkit-animation-delay: 0s;
+        animation-delay: 0s;
+-webkit-animation-direction: normal;
+        animation-direction: normal;
+-webkit-animation-duration: 5s;
+        animation-duration: 5s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
 }
 
 #haha7 {
-    animation-name: haha7;
-animation-delay: 0s;
-animation-direction: normal;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    -webkit-animation-name: haha7;
+            animation-name: haha7;
+-webkit-animation-delay: 0s;
+        animation-delay: 0s;
+-webkit-animation-direction: normal;
+        animation-direction: normal;
+-webkit-animation-duration: 5s;
+        animation-duration: 5s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
 }
 
 #haha8 {
-    animation-name: haha8;
-animation-delay: 0s;
-animation-direction: normal;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    -webkit-animation-name: haha8;
+            animation-name: haha8;
+-webkit-animation-delay: 0s;
+        animation-delay: 0s;
+-webkit-animation-direction: normal;
+        animation-direction: normal;
+-webkit-animation-duration: 5s;
+        animation-duration: 5s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
 }
 
 #haha9 {
-    animation-name: haha9;
-animation-delay: 0s;
-animation-direction: normal;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    -webkit-animation-name: haha9;
+            animation-name: haha9;
+-webkit-animation-delay: 0s;
+        animation-delay: 0s;
+-webkit-animation-direction: normal;
+        animation-direction: normal;
+-webkit-animation-duration: 5s;
+        animation-duration: 5s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
 }
 
 #haha10 {
-    animation-name: haha10;
-animation-delay: 0s;
-animation-direction: normal;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    -webkit-animation-name: haha10;
+            animation-name: haha10;
+-webkit-animation-delay: 0s;
+        animation-delay: 0s;
+-webkit-animation-direction: normal;
+        animation-direction: normal;
+-webkit-animation-duration: 5s;
+        animation-duration: 5s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
 }
 
 #worstBlock{
@@ -290,61 +381,71 @@ animation-timing-function: ease-in-out;
 }
 
 #you{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in  infinite alternate;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in  infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in  infinite alternate;
     top: 400px;
     position: relative;
 }
 
 #you2{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .25s infinite alternate;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .25s infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .25s infinite alternate;
     top: 400px;
     position: relative;
 }
 
 #you3{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .5s infinite alternate;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .5s infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .5s infinite alternate;
     top: 400px;
     position: relative;
 }
 
 #you4{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .75s infinite alternate;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .75s infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in .75s infinite alternate;
     top: 400px;
     position: relative;
 }
 
 #you5{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1s infinite alternate;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1s infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1s infinite alternate;
     top: 400px;
     position: relative;
 }
 
 #you6{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.25s infinite alternate;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.25s infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.25s infinite alternate;
     top: 400px;
     position: relative;
 }
 
 #you7{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.5s infinite alternate;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.5s infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.5s infinite alternate;
     top: 400px;
     position: relative;
 }
 
 #you8{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.75s infinite alternate;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.75s infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 1.75s infinite alternate;
     top: 400px;
     position: relative;
 }
 
 #you9{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2s infinite alternate;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2s infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2s infinite alternate;
     top: 400px;
     position: relative;
 }
 
 #you10{
-    animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2.25s infinite alternate;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2.25s infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate, opacity 5s ease-in 2.25s infinite alternate;
     top: 400px;
     position: relative;
 }
@@ -360,13 +461,20 @@ animation-timing-function: ease-in-out;
     width:100%;
     height: 100vh;
     font-size: 100px;
-    animation-name: chorusBG;
-    animation-delay: 6s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: chorusBG;
+            animation-name: chorusBG;
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     color: rgb(11, 20, 71);
     position: relative;
 
@@ -380,13 +488,20 @@ animation-timing-function: ease-in-out;
     width:100%;
     height: 100vh;
     font-size: 100px;
-    animation-name: chorusBG;
-    animation-delay: 6s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: chorusBG;
+            animation-name: chorusBG;
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     color: rgb(11, 20, 71);
     position: relative;
 
@@ -394,43 +509,71 @@ animation-timing-function: ease-in-out;
 
 
 #chorusIll {
-    animation-name: opacity;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #chorusBe {
-    animation-name: opacity;
-    animation-delay: 1s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #chorusThere {
-    animation-name: opacity;
-    animation-delay: 2s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #chorusFor {
-    animation-name: opacity;
-    animation-delay: 3s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #chorusYou {
@@ -446,43 +589,71 @@ animation-timing-function: ease-in-out;
 }
 
 #chorusIll2 {
-    animation-name: opacity;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #chorusBe2 {
-    animation-name: opacity;
-    animation-delay: 1s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #chorusThere2 {
-    animation-name: opacity;
-    animation-delay: 2s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #chorusFor2 {
-    animation-name: opacity;
-    animation-delay: 3s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #chorusYou2 {
@@ -505,25 +676,38 @@ animation-timing-function: ease-in-out;
     align-items: center;
     width: 100%;
     height: 100vh;
-    animation-name: background;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 8s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: background;
+            animation-name: background;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 8s;
+            animation-duration: 8s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     font-size: 200px;
     color: white;
 
 }
 
 #rainLyrics {
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -540,13 +724,20 @@ animation-timing-function: ease-in-out;
     color: rgb(15, 15, 136);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain1;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: rain1;
+            animation-name: rain1;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     /* z-index: 1; */
 }
 
@@ -555,13 +746,20 @@ animation-timing-function: ease-in-out;
     color: rgb(15, 15, 136);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain2;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: rain2;
+            animation-name: rain2;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     /* z-index: 2; */
 }
 
@@ -570,13 +768,20 @@ animation-timing-function: ease-in-out;
     color:rgb(131, 131, 233);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain3;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: rain3;
+            animation-name: rain3;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     /* z-index: 3; */
 }
 
@@ -585,13 +790,20 @@ animation-timing-function: ease-in-out;
     color:rgb(131, 131, 233);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain4;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: rain4;
+            animation-name: rain4;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     /* z-index: 3; */
 }
 
@@ -600,13 +812,20 @@ animation-timing-function: ease-in-out;
     color:rgb(131, 131, 233);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain5;
-    animation-delay: 3s;
-    animation-direction: normal;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: rain5;
+            animation-name: rain5;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #rain6{
@@ -614,13 +833,20 @@ animation-timing-function: ease-in-out;
     color:rgb(131, 131, 233);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain6;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: rain6;
+            animation-name: rain6;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #rain7{
@@ -628,13 +854,20 @@ animation-timing-function: ease-in-out;
     color:rgb(131, 131, 233);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain7;
-    animation-delay: 1s;
-    animation-direction: normal;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: rain7;
+            animation-name: rain7;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #rain8{
@@ -642,13 +875,20 @@ animation-timing-function: ease-in-out;
     color:rgb(131, 131, 233);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain8;
-    animation-delay: 2s;
-    animation-direction: normal;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: rain8;
+            animation-name: rain8;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #rain9{
@@ -656,13 +896,20 @@ animation-timing-function: ease-in-out;
     color:rgb(131, 131, 233);
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain9;
-    animation-delay: 1.5s;
-    animation-direction: normal;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: rain9;
+            animation-name: rain9;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #rain10{
@@ -670,13 +917,20 @@ animation-timing-function: ease-in-out;
     color:rgb(131, 131, 233);   
     font-size: 50px;
     transform: rotate(60deg);
-    animation-name: rain10;
-    animation-delay: 2.5s;
-    animation-direction: normal;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: rain10;
+            animation-name: rain10;
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 
@@ -737,13 +991,20 @@ animation-timing-function: ease-in-out;
 }
 
 #cause {
-    animation-name: appear;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: appear;
+            animation-name: appear;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -752,13 +1013,20 @@ animation-timing-function: ease-in-out;
 
 
 #there {
-    animation-name: appear;
-    animation-delay: .5s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: appear;
+            animation-name: appear;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -766,13 +1034,20 @@ animation-timing-function: ease-in-out;
 }
 
 #for {
-    animation-name: appear;
-    animation-delay: .75s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: appear;
+            animation-name: appear;
+    -webkit-animation-delay: .75s;
+            animation-delay: .75s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -780,13 +1055,20 @@ animation-timing-function: ease-in-out;
 }
 
 #me {
-    animation-name: appear;
-    animation-delay: 1s;
-    animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: appear;
+            animation-name: appear;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -794,13 +1076,20 @@ animation-timing-function: ease-in-out;
 }
 
 #too {
-    animation-name: appear;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: appear;
+            animation-name: appear;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -809,99 +1098,162 @@ animation-timing-function: ease-in-out;
 }
 
 #too2 {
-    animation-name: too2;
-    animation-delay: .25s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: too2;
+            animation-name: too2;
+    -webkit-animation-delay: .25s;
+            animation-delay: .25s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     transform: skew(-330deg);
 }
 
 #too3 {
-    animation-name: too3;
-    animation-delay: .5s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: too3;
+            animation-name: too3;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     transform: skew(-330deg);
 }
 
 #too4 {
-    animation-name: too4;
-    animation-delay: .75s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: too4;
+            animation-name: too4;
+    -webkit-animation-delay: .75s;
+            animation-delay: .75s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     transform: skew(-330deg);
 }
 
 #too5 {
-    animation-name: too5;
-    animation-delay: 1s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: too5;
+            animation-name: too5;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     transform: skew(-330deg);
 }
 
 #too6 {
-    animation-name: too6;
-    animation-delay: 1.25s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: too6;
+            animation-name: too6;
+    -webkit-animation-delay: 1.25s;
+            animation-delay: 1.25s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     transform: skew(-330deg);
 }
 
 #too7 {
-    animation-name: too7;
-    animation-delay: 1.5s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: too7;
+            animation-name: too7;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     transform: skew(-330deg);
 }
 
 #too8 {
-    animation-name: too8;
-    animation-delay: 1.75s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: too8;
+            animation-name: too8;
+    -webkit-animation-delay: 1.75s;
+            animation-delay: 1.75s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     transform: skew(-330deg);
 }
 #too9 {
-    animation-name: too9;
-    animation-delay: 2s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: too9;
+            animation-name: too9;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     transform: skew(-330deg);
 }
 #too10 {
-    animation-name: too10;
-    animation-delay: 2.25s;
-    animation-direction: normal;
-    animation-duration: 4s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: too10;
+            animation-name: too10;
+    -webkit-animation-delay: 2.25s;
+            animation-delay: 2.25s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     transform: skew(-330deg);
 }
 
@@ -920,66 +1272,108 @@ animation-timing-function: ease-in-out;
 }
 
 #gear{
-    animation-name: gearStuck;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: gearStuck;
+            animation-name: gearStuck;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
    
 }
 
 #gearG{
-    animation-name: gearStuck;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: gearStuck;
+            animation-name: gearStuck;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #gearE{
-    animation-name: gearStuck;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: gearStuck;
+            animation-name: gearStuck;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #gearA{
-    animation-name: gearStuck;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: gearStuck;
+            animation-name: gearStuck;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #gearR{
-    animation-name: gearStuck;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: gearStuck;
+            animation-name: gearStuck;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #gearGrow{
     /* animation-name: gearStuck; */
     transform: translate(0, -5px) rotate(30deg);
-    animation-name: gearStuck2;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: gearStuck2;
+            animation-name: gearStuck2;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     font-size: 300px;
 
 }
@@ -987,26 +1381,40 @@ animation-timing-function: ease-in-out;
 #gearErow{
     /* animation-name: gearStuck; */
     transform: translate(0, 5px) rotate(15deg);
-    animation-name: gearStuck3;
-    animation-delay: 1s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: gearStuck3;
+            animation-name: gearStuck3;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     font-size: 300px;
 }
 
 #gearArow{
     /* animation-name: gearStuck; */
     transform: translate(0, 5px) rotate(345deg);
-    animation-name: gearStuck2;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: gearStuck2;
+            animation-name: gearStuck2;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     font-size: 300px;
 
 }
@@ -1014,13 +1422,20 @@ animation-timing-function: ease-in-out;
 #gearRrow{
     /* animation-name: gearStuck; */
     transform: translate(0, -5px) rotate(330deg);
-    animation-name: gearStuck2;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: gearStuck2;
+            animation-name: gearStuck2;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
     font-size: 300px;
 
 }
@@ -1074,50 +1489,78 @@ animation-timing-function: ease-in-out;
 
 #calendarDay {
     font-size:100px;
-    animation-name: day;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration:12s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: day;
+            animation-name: day;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration:12s;
+            animation-duration:12s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 
 }
 
 #calendarWeek {
     font-size: 250px;
     color:rgb(123, 105, 228);
-    animation-name: outInOut;
-    animation-delay: 6s;
-    animation-direction: normal;
-    animation-duration:12s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: outInOut;
+            animation-name: outInOut;
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration:12s;
+            animation-duration:12s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #calendarMonth {
     font-size: 100px;
     color:rgb(171, 171, 228);
     font-size: 400px;
-    animation-name: month;
-    animation-delay: 9s;
-    animation-direction: normal;
-    animation-duration: 12s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-name: month;
+            animation-name: month;
+    -webkit-animation-delay: 9s;
+            animation-delay: 9s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 12s;
+            animation-duration: 12s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 #calendarYear {
     font-size: 800px;
-    animation-name: year;
-    animation-delay: 12s;
-    animation-direction: normal;
-    animation-duration: 12s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-name: year;
+            animation-name: year;
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 12s;
+            animation-duration: 12s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     /* position: absolute; */
 }
 
@@ -1147,14 +1590,21 @@ animation-timing-function: ease-in-out;
 }
 
 #replay {
-    animation-name: neon3;
+    -webkit-animation-name: neon3;
+            animation-name: neon3;
     text-align: center;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     text-decoration: none;
     color:#12134e
 }
@@ -1164,6 +1614,24 @@ animation-timing-function: ease-in-out;
     align-items: center;
     justify-content: center;
 } */
+
+@-webkit-keyframes opacity{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 50%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    75%{
+        opacity: 50%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
 
 @keyframes opacity{
     0%{
@@ -1180,6 +1648,25 @@ animation-timing-function: ease-in-out;
     }
     100%{
         opacity: 0%;
+    }
+}
+
+@-webkit-keyframes rain1{
+    0% {
+        left: -400px;
+        top: 0px;
+        color: white; 
+        opacity: 0%;
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: 0px;
+        top: 900px;
+ 
+        opacity: 0%; 
     }
 }
 
@@ -1202,6 +1689,24 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes rain2{
+    0% {
+        left: -100px;
+        top: -100px;
+        color: white;
+        opacity: 0%;
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: 300px;
+        top: 500px;
+        opacity: 0%; 
+    }
+}
+
 @keyframes rain2{
     0% {
         left: -100px;
@@ -1217,6 +1722,25 @@ animation-timing-function: ease-in-out;
         left: 300px;
         top: 500px;
         opacity: 0%; 
+    }
+}
+
+@-webkit-keyframes rain3{
+    0% {
+        left: 400px;
+        top: -200px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: 800px;
+        top: 800px;
+
+        opacity: 0%;
     }
 }
 
@@ -1239,6 +1763,24 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes rain4{
+    0% {
+        left: 600px;
+        top: 200px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: 1000px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
 @keyframes rain4{
     0% {
         left: 600px;
@@ -1252,6 +1794,24 @@ animation-timing-function: ease-in-out;
     }
     100%{
         left: 1000px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
+@-webkit-keyframes rain5{
+    0% {
+        left: -450px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: -50px;
         top: 1000px;
         opacity: 0%;
     }
@@ -1275,6 +1835,24 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes rain6{
+    0% {
+        left: -650px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: -250px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
 @keyframes rain6{
     0% {
         left: -650px;
@@ -1288,6 +1866,24 @@ animation-timing-function: ease-in-out;
     }
     100%{
         left: -250px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
+@-webkit-keyframes rain7{
+    0% {
+        left: -750px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: -350px;
         top: 1000px;
         opacity: 0%;
     }
@@ -1311,6 +1907,24 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes rain8{
+    0% {
+        left: 50px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: 450px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
 @keyframes rain8{
     0% {
         left: 50px;
@@ -1324,6 +1938,24 @@ animation-timing-function: ease-in-out;
     }
     100%{
         left: 450px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
+@-webkit-keyframes rain9{
+    0% {
+        left: 250px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: 650px;
         top: 1000px;
         opacity: 0%;
     }
@@ -1347,6 +1979,24 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes rain10{
+    0% {
+        left: 900px;
+        top: 0px;
+        opacity: 0%;
+        color: white; 
+
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        left: 1300px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
 @keyframes rain10{
     0% {
         left: 900px;
@@ -1362,6 +2012,24 @@ animation-timing-function: ease-in-out;
         left: 1300px;
         top: 1000px;
         opacity: 0%;
+    }
+}
+
+@-webkit-keyframes background{
+    0% {
+        background-color:rgb(131, 131, 233);
+    }
+    25%{
+        background-color:rgb(55, 55, 163);
+    }
+    50% {
+        background-color:rgb(12, 12, 59);
+    }
+    75%{
+        background-color:rgb(55, 55, 163);
+    }
+    100%{
+        background-color:rgb(131, 131, 233);    
     }
 }
 
@@ -1383,6 +2051,18 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes appear{
+    0% {
+        color: white;
+    }
+    50%{    
+        color:#12134e;
+    }
+    100%{    
+        color:#ffffff;
+    }
+}
+
 @keyframes appear{
     0% {
         color: white;
@@ -1395,7 +2075,43 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes gearStuck {
+    0% {
+        transform: rotate(10deg);
+    }
+    25%{
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(25deg);
+    }
+    75%{
+        transform: rotate(-25deg);
+    }
+    100%{
+        transform: rotate(25deg);
+    }
+}
+
 @keyframes gearStuck {
+    0% {
+        transform: rotate(10deg);
+    }
+    25%{
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(25deg);
+    }
+    75%{
+        transform: rotate(-25deg);
+    }
+    100%{
+        transform: rotate(25deg);
+    }
+}
+
+@-webkit-keyframes gearStuck2 {
     0% {
         transform: rotate(10deg);
     }
@@ -1428,6 +2144,48 @@ animation-timing-function: ease-in-out;
     }
     100%{
         transform: rotate(25deg);
+    }
+}
+
+@-webkit-keyframes gearStuck3 {
+    0% {
+        transform: rotate(10deg);
+        height: 100%;
+    }
+    25%{
+        transform: rotate(-10deg);
+        height: 300%;
+    }
+    50% {
+        transform: rotate(25deg);
+        height: 300%;
+    }
+    75%{
+        transform: rotate(-25deg);
+        height: 300%;
+    }
+    85%{
+        /* transform: translate(0px, 300px) rotate(-125deg); */
+        transform: rotate(-190deg);
+        height: 300%;
+        
+    }
+    90%{
+        /* transform: translate(0px, 330px) rotate(-100deg); */
+        transform: rotate(-140deg);
+        height: 300%;
+        
+    }
+    95%{
+        /* transform: translate(0px, 350px) rotate(-115deg); */
+        transform: rotate(-175deg);
+        height: 300%;
+        
+    }
+    100% {
+        /* transform: translate(0px, 350px) rotate(-115deg); */
+        transform: rotate(-175deg);
+        height: 500%;
     }
 }
 
@@ -1474,6 +2232,19 @@ animation-timing-function: ease-in-out;
 }
 
 
+@-webkit-keyframes haha1 {
+    0% {
+        transform:  translate(-200px, 700px) rotate(-15deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(-200px, -160px) rotate(10deg);
+        opacity: 0%;
+    }
+}
+
+
 @keyframes haha1 {
     0% {
         transform:  translate(-200px, 700px) rotate(-15deg)  ;
@@ -1485,6 +2256,17 @@ animation-timing-function: ease-in-out;
         opacity: 0%;
     }
 }
+@-webkit-keyframes haha2 {
+    0% {
+        transform:  translate(-300px, 700px) rotate(-15deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(-300px, -120px) rotate(10deg);
+        opacity: 0%;
+    }
+}
 @keyframes haha2 {
     0% {
         transform:  translate(-300px, 700px) rotate(-15deg)  ;
@@ -1493,6 +2275,18 @@ animation-timing-function: ease-in-out;
 
     100%{
         transform:  translate(-300px, -120px) rotate(10deg);
+        opacity: 0%;
+    }
+}
+
+@-webkit-keyframes haha3 {
+    0% {
+        transform:  translate(0px, 500px) rotate(23deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(0px, -100px) rotate(-10deg);
         opacity: 0%;
     }
 }
@@ -1509,6 +2303,18 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes haha4 {
+    0% {
+        transform:  translate(200px, 500px) rotate(5deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(250px, -160px) rotate(12deg);
+        opacity: 0%;
+    }
+}
+
 @keyframes haha4 {
     0% {
         transform:  translate(200px, 500px) rotate(5deg)  ;
@@ -1517,6 +2323,18 @@ animation-timing-function: ease-in-out;
 
     100%{
         transform:  translate(250px, -160px) rotate(12deg);
+        opacity: 0%;
+    }
+}
+
+@-webkit-keyframes haha5 {
+    0% {
+        transform:  translate(300px, 500px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
         opacity: 0%;
     }
 }
@@ -1533,7 +2351,31 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes haha6 {
+    0% {
+        transform:  translate(300px, 1700px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
+}
+
 @keyframes haha6 {
+    0% {
+        transform:  translate(300px, 1700px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
+}
+
+@-webkit-keyframes haha7 {
     0% {
         transform:  translate(300px, 1700px) rotate(-13deg)  ;
         opacity: 100%;
@@ -1557,6 +2399,18 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes haha8 {
+    0% {
+        transform:  translate(300px, 1700px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
+}
+
 @keyframes haha8 {
     0% {
         transform:  translate(300px, 1700px) rotate(-13deg)  ;
@@ -1569,7 +2423,31 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes haha9 {
+    0% {
+        transform:  translate(300px, 1700px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
+}
+
 @keyframes haha9 {
+    0% {
+        transform:  translate(300px, 1700px) rotate(-13deg)  ;
+        opacity: 100%;
+    }
+
+    100%{
+        transform:  translate(300px, -140px) rotate(20deg);
+        opacity: 0%;
+    }
+}
+
+@-webkit-keyframes haha10 {
     0% {
         transform:  translate(300px, 1700px) rotate(-13deg)  ;
         opacity: 100%;
@@ -1594,6 +2472,25 @@ animation-timing-function: ease-in-out;
 }
 
 
+@-webkit-keyframes colorChangeText {
+    0%{
+        color: rgb(11, 20, 71);
+    }
+    25%{
+
+    }
+    50%{
+        color:rgb(255, 255, 255);
+    }
+    75%{
+        color:rgb(55, 55, 163);
+    }
+    100%{
+        color: rgb(11, 20, 71);
+    }
+}
+
+
 @keyframes colorChangeText {
     0%{
         color: rgb(11, 20, 71);
@@ -1609,6 +2506,26 @@ animation-timing-function: ease-in-out;
     }
     100%{
         color: rgb(11, 20, 71);
+    }
+}
+
+@-webkit-keyframes colorDayText {
+    0%{
+    }
+    25%{
+        background-color: rgb(63, 63, 16);
+        color:rgb(108, 109, 38);
+    }
+    50%{
+        color:rgb(253, 240, 49);
+        background-color: rgb(228, 186, 51);
+    }
+    75%{
+        color:rgb(108, 109, 38);
+        background-color: rgb(63, 63, 16);
+    }
+    100%{
+        color: rgb(11, 20, 71); 
     }
 }
 
@@ -1630,6 +2547,33 @@ animation-timing-function: ease-in-out;
     100%{
         color: rgb(11, 20, 71); 
     }
+}
+
+@-webkit-keyframes outInOut {
+    0%{
+        transform: translate(-3000px, 700px);
+        color: rgb(61, 46, 150);
+    }
+    25%{
+        transform: translate(0px, 700px);
+        color: white;
+        opacity: 100%;
+    }
+    50%{
+        transform: translate(3000px, 700px);
+        color: rgb(61, 46, 150);
+        opacity: 0%;
+ 
+    }
+    75%{
+        transform: translate(3200px, 700px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(3300px, 700px);
+        opacity: 0%;
+    }
+    
 }
 
 @keyframes outInOut {
@@ -1655,6 +2599,37 @@ animation-timing-function: ease-in-out;
     100%{
         transform: translate(3300px, 700px);
         opacity: 0%;
+    }
+    
+}
+
+@-webkit-keyframes day {
+    0%{
+        transform: translate(0px, 4000px);
+        /* transform: translate(100%, 100%); */
+        color: rgb(61, 46, 150);
+        opacity: 0%;
+    }
+    25%{
+        transform: translate(0px, 2500px);
+        color: rgb(255, 255, 255);
+        opacity: 100%;
+    }
+    50%{
+        transform: translate(0px, 800px);
+        color: rgb(255, 255, 255);
+        opacity: 100%;
+        /* transform: translate(0%, 0%); */
+ 
+    }
+    75%{
+        transform: translate(0px, -1500px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(0px, -3000px);
+        opacity: 0%;
+        /* transform: translate(-100%, -100%); */
     }
     
 }
@@ -1690,6 +2665,27 @@ animation-timing-function: ease-in-out;
     
 }
 
+@-webkit-keyframes month {
+    0%{
+        transform: translate(3000px, 0px); 
+        color: rgb(61, 46, 150); 
+    }
+    25%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    50%{
+        transform: translate(-3100px, 0px);
+        color: rgb(61, 46, 150);
+    }
+    75%{
+        transform: translate(-3200px, 0px);
+    }
+    100%{
+        transform: translate(-3300px, 0px);
+    }
+}
+
 @keyframes month {
     0%{
         transform: translate(3000px, 0px); 
@@ -1708,6 +2704,32 @@ animation-timing-function: ease-in-out;
     }
     100%{
         transform: translate(-3300px, 0px);
+    }
+}
+
+@-webkit-keyframes year {
+    0%{
+        transform: translate(0px, -2100px);
+        color: rgb(61, 46, 150);
+        opacity: 0%; 
+    }
+    25%{
+        transform: translate(0px, -100px);
+        color: white;
+        opacity: 100%;
+    }
+    50%{
+        transform: translate(0px, 1800px);
+        opacity: 0%;
+    }
+    75%{
+        transform: translate(0px, 1800px);
+        color: rgb(61, 46, 150);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(0px, 1800px);
+        opacity: 0%;
     }
 }
 
@@ -1737,22 +2759,67 @@ animation-timing-function: ease-in-out;
     }
 }
 
+@-webkit-keyframes laugh {
+    0%{
+        
+    }
+    25%{
+        -webkit-filter: blur(5px);
+                filter: blur(5px); 
+    }
+    50%{
+        -webkit-filter: blur(10px);
+                filter: blur(10px); 
+    }
+    75%{
+        -webkit-filter: blur(5px);
+                filter: blur(5px); 
+    }
+    100%{
+        -webkit-filter: blur(0px);
+                filter: blur(0px);  
+    }
+}
+
 @keyframes laugh {
     0%{
         
     }
     25%{
-        filter: blur(5px); 
+        -webkit-filter: blur(5px);
+                filter: blur(5px); 
     }
     50%{
-        filter: blur(10px); 
+        -webkit-filter: blur(10px);
+                filter: blur(10px); 
     }
     75%{
-        filter: blur(5px); 
+        -webkit-filter: blur(5px);
+                filter: blur(5px); 
     }
     100%{
-        filter: blur(0px);  
+        -webkit-filter: blur(0px);
+                filter: blur(0px);  
     }
+}
+
+@-webkit-keyframes chorusBG {
+    0%{
+        background-color:rgb(255, 255, 255);
+    }
+    25%{
+
+    }
+    50%{
+        background-color:rgb(12, 12, 59);
+    }
+    75%{
+
+    }
+    100%{
+        background-color:rgb(255, 255, 255);
+    }
+    
 }
 
 @keyframes chorusBG {
@@ -1774,6 +2841,19 @@ animation-timing-function: ease-in-out;
     
 }
 
+@-webkit-keyframes chorusAppear {
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{
+        background-color:rgb(12, 12, 59);
+    }
+    
+}
+
 @keyframes chorusAppear {
     0%{
 
@@ -1787,6 +2867,17 @@ animation-timing-function: ease-in-out;
     
 }
 
+@-webkit-keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+        0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+        0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+    }
+  }
+
 @keyframes neon2 {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
@@ -1798,6 +2889,17 @@ animation-timing-function: ease-in-out;
     }
   }
   
+  @-webkit-keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffdd1b,
+        0 0 70px #ffdd1b, 0 0 80px #ffdd1b, 0 0 100px #ffdd1b, 0 0 150px #ffdd1b;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffdd1b,
+        0 0 35px #ffdd1b, 0 0 40px #ffdd1b, 0 0 50px #ffdd1b, 0 0 75px #ffdd1b;
+    }
+  }
+  
   @keyframes neon3 {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffdd1b,
@@ -1806,6 +2908,24 @@ animation-timing-function: ease-in-out;
     to {
       text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffdd1b,
         0 0 35px #ffdd1b, 0 0 40px #ffdd1b, 0 0 50px #ffdd1b, 0 0 75px #ffdd1b;
+    }
+  }
+
+  @-webkit-keyframes too2 {
+    0%{ transform: translate(-30px, -350px);
+    }
+    /* 0%{ transform: translate(-70%, -370%);
+            color: red;
+    } */
+    50%{
+        transform: translate(-30px, 1500px) rotateY(3110deg);
+        /* transform: translate(-70%, 550%) rotateY(3110deg); */
+    }
+    100%{
+        transform: translate(-30px, 1500px) rotateY(3110deg);
+        /* transform: translate(-70%, 1550%) rotateY(3110deg); */
+      
+        opacity: 0%;
     }
   }
 
@@ -1827,6 +2947,18 @@ animation-timing-function: ease-in-out;
     }
   }
 
+  @-webkit-keyframes too3 {
+    0%{ transform: translate(15px, -450px) rotateY(10deg);
+    }
+    50%{transform: translate(15px, 1300px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(15px, 3000px) rotateY(10deg);
+    
+        opacity: 0%;
+    }
+  }
+
   @keyframes too3 {
     0%{ transform: translate(15px, -450px) rotateY(10deg);
     }
@@ -1839,6 +2971,22 @@ animation-timing-function: ease-in-out;
     }
   }
 
+  @-webkit-keyframes too4 {
+    0%{ transform: translate(60px, -510px);
+
+    }
+    50%{
+        transform: translate(60px, 2100px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(60px, 2100px) rotateY(3110deg);
+        opacity: 0%;
+    }
+
+    
+    
+  }
+
   @keyframes too4 {
     0%{ transform: translate(60px, -510px);
 
@@ -1848,6 +2996,23 @@ animation-timing-function: ease-in-out;
     }
     100%{
         transform: translate(60px, 2100px) rotateY(3110deg);
+        opacity: 0%;
+    }
+
+    
+    
+  }
+
+  @-webkit-keyframes too5 {
+    0%{ transform: translate(60px, -550px);
+
+    }
+    50%{
+        transform: translate(60px, 1950px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(60px, 1950px) rotateY(3110deg);
+
         opacity: 0%;
     }
 
@@ -1872,6 +3037,22 @@ animation-timing-function: ease-in-out;
     
   }
 
+  @-webkit-keyframes too6 {
+    0%{ transform: translate(15px, -800px);
+
+    }
+    50%{
+        transform: translate(15px, 900px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(15px, 900px) rotateY(3110deg);
+        opacity: 0%;
+    }
+
+    
+    
+  }
+
   @keyframes too6 {
     0%{ transform: translate(15px, -800px);
 
@@ -1882,6 +3063,23 @@ animation-timing-function: ease-in-out;
     100%{
         transform: translate(15px, 900px) rotateY(3110deg);
         opacity: 0%;
+    }
+
+    
+    
+  }
+
+  @-webkit-keyframes too7 {
+    0%{ transform: translate(60px, -900px);
+
+    }
+    50%{
+        transform: translate(60px, 3000px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(60px, 3000px) rotateY(3110deg);
+ 
+
     }
 
     
@@ -1905,6 +3103,21 @@ animation-timing-function: ease-in-out;
     
   }
 
+  @-webkit-keyframes too8 {
+    0%{ transform: translate(60px, -900px);
+
+    }
+    50%{
+        transform: translate(60px, 1300px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(60px, 1300px) rotateY(3110deg);
+    }
+
+    
+    
+  }
+
   @keyframes too8 {
     0%{ transform: translate(60px, -900px);
 
@@ -1920,6 +3133,21 @@ animation-timing-function: ease-in-out;
     
   }
 
+  @-webkit-keyframes too9 {
+    0%{ transform: translate(15px, -1050px);
+
+    }
+    50%{
+        transform: translate(15px, 1300px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(15px, 1300px) rotateY(3110deg);
+    }
+
+    
+    
+  }
+
   @keyframes too9 {
     0%{ transform: translate(15px, -1050px);
 
@@ -1929,6 +3157,21 @@ animation-timing-function: ease-in-out;
     }
     100%{
         transform: translate(15px, 1300px) rotateY(3110deg);
+    }
+
+    
+    
+  }
+
+  @-webkit-keyframes too10 {
+    0%{ transform: translate(-30px, -1150px);
+
+    }
+    50%{
+        transform: translate(-30px, 1300px) rotateY(3110deg);
+    }
+    100%{
+        transform: translate(-30px, 1300px) rotateY(3110deg);
     }
 
     
